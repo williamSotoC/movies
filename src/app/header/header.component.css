@@ -1,0 +1,16 @@
+a {
+    cursor: pointer;
+}
+
+.classHome, .classLogin, .classContatti, .classLoginToken, .classRegistrazioneToken {
+    font-weight: 900;
+    color: #f00;
+}
+
+div.nav-icone div {
+    color: #f00;
+    margin-left: .5rem;
+
+}
+
+

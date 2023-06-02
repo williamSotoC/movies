@@ -1,0 +1,136 @@
+mat-card {
+    background-color: #E50914;
+}
+
+/* ! poster */
+.grid {
+
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /** oppure 1fr 1fr 1fr */
+
+    gap: 50px;
+    /* ! ATTENZIONE: se metto la % come unità di misura. dopo ogni chiamata al server ,il gap VERTICALE AUMENTA SEMPRE DI PIU' .Per cui devo usare gap verticale in "px" */
+
+    margin-top: 2rem;
+}
+
+mat-card {
+    max-width: 400px;
+    color: #000;
+
+}
+
+mat-card img {
+    display: block;
+    /* margin-left: 2rem; */
+    margin: 0 auto;
+
+    /* max-width: 250px; */
+    width: 80%;
+    margin-bottom: 1.5rem;
+
+}
+
+mat-icon {
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 28px ;
+    width: 40px ;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    right:  10%;
+    top: 112px;
+    background-color: #E50914;
+    text-align: center;
+    transition: 400ms ease-in ;
+    -webkit-transition: 400ms ease-in ;
+    -moz-transition: 400ms ease-in ;
+    -ms-transition: 400ms ease-in ;
+    -o-transition: 400ms ease-in ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+mat-icon:hover {
+    color:  #E50914;
+    background-color: #ffffffc6;
+}
+
+/* ! poster */
+
+mat-progress-spinner {
+    margin: 0 auto;
+}
+
+
+
+
+
+/* !media query */
+@media screen and (max-width: 870px) {
+    .grid {
+
+        grid-template-columns: repeat(2, 1fr);
+        /** oppure 1fr 1fr  */
+
+        /* gap: 20px; */
+        /* ! ATTENZIONE: se metto la % come unità di misura; dopo ogni chiamata al server ,il gap VERTICALE AUMENTA SEMPRE DI PIU' .Per cui devo usare gap verticale in "px" */
+        column-gap: 10px;
+        row-gap: 50px
+    }
+
+    mat-card {
+        width: 90%;
+
+    }
+
+    mat-card img {
+        width: 100%;
+
+    }
+
+    .grid .descrizione {
+        position: absolute;
+        top: 112px;
+        left: 0px;
+        /* width: 1px !important; */
+
+    }
+
+    mat-card-content>span {
+        display: block;
+        margin-left: 0;
+    }
+
+   
+
+}
+
+/* !media query */
+
+
+
+@media screen and (max-width: 400px) {
+
+    .grid {
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    mat-card {
+        width: 70%;
+
+    }
+
+}

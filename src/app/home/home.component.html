@@ -1,0 +1,181 @@
+<!-- !video principale MERCOLEDI -->
+<main>
+    <div class="video-principale">
+        <div class="volume-video muted"></div>
+        <video src="../../assets/multimedia/mercoledi.mp4" autoplay [muted]="'muted'"></video>
+
+        <div class="container">
+            <div class="parte-superiore">
+                <img src="../../assets/multimedia/n.png" alt="lettera N">
+                <h2>Serie</h2>
+            </div>
+            <div class="parte-media">
+                <div class="star">&#9733;&#9733;&#9733;&#9733;&#9733;
+                    <span>2023 | 13+ | 1 stagione | serie tv per adolescenti</span>
+                </div>
+                <h1>MERCOLEDI</h1>
+                <p>Perspicace, sarcastica e… un po' inquietante, Mercoledì Addams indaga su una serie di omicidi mentre
+                    conosce nuovi amici e rivali alla Nevermore Academy.</p>
+                <div class="protagonista">
+                    <p><span>Starring:</span> Jenna Ortega,Gwendoline Christie,Riki Lindhome</p>
+                    <p><span>Genres:</span> Comedy horror</p>
+                    <p><span>Created by:</span> Alfred Gough,Miles Millar</p>
+                </div>
+            </div>
+            <div class="parte-inferiore">
+                <!-- <button><i class="fa-sharp fa-solid fa-play"></i>Riprodurre</button> -->
+                <button><mat-icon>play_arrow</mat-icon>Riprodurre</button>
+                <!-- <button>Riprodurre</button> -->
+                <button><mat-icon>info</mat-icon>Più informazione</button>
+            </div>
+        </div>
+    </div>
+</main>
+<!-- !video principale MERCOLEDI -->
+
+
+
+
+<!-- !ANIMAZIONE --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+<section class="la-mia-lista">
+    <div class="lista">
+        <h1>Animation & Family TV</h1>
+        <div class="slider">
+            <div class="card" *ngFor="let elementoIessimoOggettoFilm of arrayDiOggettiFilmsGenereAnimazione">
+                <img  [src]="elementoIessimoOggettoFilm.backdrop_path | filtroImgBackground" alt="{{elementoIessimoOggettoFilm.title}}">
+                <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+                <div class="testo">
+
+                    <p>{{elementoIessimoOggettoFilm.title}}</p>
+                    <div class="icona-play" (click)="inserireFilmAcquistatoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">
+                        <!-- <span>+10 | 1h 43m</span> -->
+                        <div class="play"><span>ACQUISTA</span> </div>
+                    </div>
+                    <div class="icone-fontello-sopra-slider">
+                        <div (click)="inserireFilmPreferitoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">A</div>
+                        <div>B</div>
+                        <div (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilm)">C</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+<!-- !ANIMAZIONE --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+
+
+
+<!-- !HORROR --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+<section class="la-mia-lista">
+    <div class="lista">
+        <h1>Horror Movies</h1>
+        <div class="slider">
+            <div class="card" *ngFor="let elementoIessimoOggettoFilm of arrayDiOggettiFilmsGenereHorror">
+                <img  [src]="elementoIessimoOggettoFilm.backdrop_path | filtroImgBackground" alt="{{elementoIessimoOggettoFilm.title}}">
+                <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+                <div class="testo">
+
+                    <p>{{elementoIessimoOggettoFilm.title}}</p>
+                    <div class="icona-play" (click)="inserireFilmAcquistatoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">
+                        <!-- <span>+10 | 1h 43m</span> -->
+                        <div class="play"><span>ACQUISTA</span> </div>
+                    </div>
+                    <div class="icone-fontello-sopra-slider">
+                        <div (click)="inserireFilmPreferitoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">A</div>
+                        <div>B</div>
+                        <div (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilm)">C</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+<!-- !HORROR --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+
+
+
+<!-- !FANTASCIENZA --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+<section class="la-mia-lista">
+    <div class="lista">
+        <h1>Fantasy Movies</h1>
+        <div class="slider">
+            <div class="card" *ngFor="let elementoIessimoOggettoFilm of arrayDiOggettiFilmsGenereFantascienza">
+                <img  [src]="elementoIessimoOggettoFilm.backdrop_path | filtroImgBackground" alt="{{elementoIessimoOggettoFilm.title}}">
+                <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+                <div class="testo">
+
+                    <p>{{elementoIessimoOggettoFilm.title}}</p>
+                    <div class="icona-play" (click)="inserireFilmAcquistatoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">
+                        <!-- <span>+10 | 1h 43m</span> -->
+                        <div class="play"><span>ACQUISTA</span> </div>
+                    </div>
+                    <div class="icone-fontello-sopra-slider">
+                        <div (click)="inserireFilmPreferitoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">A</div>
+                        <div>B</div>
+                        <div (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilm)">C</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+<!-- !FANTASCIENZA --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+
+
+
+<!-- !ROMANCE --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+<section class="la-mia-lista">
+    <div class="lista">
+        <h1>Romance Movies</h1>
+        <div class="slider">
+            <div class="card" *ngFor="let elementoIessimoOggettoFilm of arrayDiOggettiFilmsGenereRomance">
+                <img  [src]="elementoIessimoOggettoFilm.backdrop_path | filtroImgBackground" alt="{{elementoIessimoOggettoFilm.title}}">
+                <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+                <div class="testo">
+
+                    <p>{{elementoIessimoOggettoFilm.title}}</p>
+                    <div class="icona-play" (click)="inserireFilmAcquistatoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">
+                        <!-- <span>+10 | 1h 43m</span> -->
+                        <div class="play"><span>ACQUISTA</span> </div>
+                    </div>
+                    <div class="icone-fontello-sopra-slider">
+                        <div (click)="inserireFilmPreferitoNelServerLocale(elementoIessimoOggettoFilm, '1000ms', '500ms')">A</div>
+                        <div>B</div>
+                        <div (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilm)">C</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+<!-- !ROMANCE --> <!-- SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS   -->
+
+
+
+
+
+<h1 >Popular Movies</h1>
+
+<div class="sliderContenitore">
+
+    <app-slider></app-slider>
+
+</div>
+
+<app-films-list [arrayDiOggettiFilmsPosterr]="arrayDiOggettiFilmsPoster"></app-films-list>

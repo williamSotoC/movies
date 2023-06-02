@@ -1,0 +1,51 @@
+<div class="grid">
+    <mat-card class="example-card" *ngFor="let elementoIessimoOggettoFilmPoster of arrayDiOggettiFilmsPosterr">
+        <!-- <mat-card-header> -->
+        <mat-card-title>{{elementoIessimoOggettoFilmPoster.title}}</mat-card-title>
+        <!-- </mat-card-header> -->
+        <!-- <img mat-card-image src="http://image.tmdb.org/t/p/w500{{elementoIessimoOggettoFilmPoster.poster_path}}" alt="{{elementoIessimoOggettoFilmPoster.title}}" (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilmPoster)" class="imgPoster"> -->
+        <img mat-card-image [src]="elementoIessimoOggettoFilmPoster.poster_path | filtroImg"
+            alt="{{elementoIessimoOggettoFilmPoster.title}}"
+            (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilmPoster)" class="imgPoster">
+        <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+        <!-- ! ATTENZIONE: creare pipe per le immagini non trovate -->
+        <mat-card-content>
+            <!-- <p>
+                {{elementoIessimoOggettoFilmPoster.overview}}
+            </p> -->
+            {{elementoIessimoOggettoFilmPoster.vote_average | number: "1.1-2"}}
+            <!-- ! "number" è nome della pipe Angular-->
+            <!-- ! 1 di sinistra mi dice la quantità di numeri che voglio avere a sinistra del punto -->
+            <!-- ! 1 di destra mi dice la quantità MINIMA di numeri che voglio avere a destra del punto -->
+            <!-- ! 2 mi dice la quantità MASSIMA di numeri che voglio avere a destra del punto -->
+
+            <ngb-rating [rate]="elementoIessimoOggettoFilmPoster.vote_average">
+                <!-- ! "[rate]" è un attributo del tag "<ngb-rating"-->
+                <!-- ! "[rate]" avrà come valore la media dei voti di ogni filmDetail-->
+                <!-- ! Tale media avrà al massimo due cifre dopo la virgola(vedi pipe number) -->
+
+
+            </ngb-rating>
+            <span>{{elementoIessimoOggettoFilmPoster.release_date | date:"dd MMM yyyy"}}</span>
+
+
+
+
+            <button type="button" mat-button
+                (click)="inserireFilmAcquistatoNelServerLocale(elementoIessimoOggettoFilmPoster, '1000ms', '500ms')">ACQUISTA</button>
+
+            <mat-icon (click)="inserireFilmPreferitoNelServerLocale(elementoIessimoOggettoFilmPoster, '1000ms', '500ms')">favorite
+            </mat-icon>
+
+
+
+
+        </mat-card-content>
+
+    </mat-card>
+</div>
+<mat-progress-spinner *ngIf="filmService.caricamento == true" color="warn" mode="indeterminate" value="50">
+</mat-progress-spinner>
+<mat-progress-spinner *ngIf="filmService.caricamentoSerch == true" color="warn" mode="indeterminate" value="50">
+</mat-progress-spinner>

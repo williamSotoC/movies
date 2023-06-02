@@ -1,0 +1,45 @@
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div *ngFor="let elementoIessimoOggettofilmSlider of arrayDiOggettiFilmsSlider" class="swiper-slide"
+           >
+            <!--! urlBase per prendere le immagini dello slider "http://image.tmdb.org/t/p/w500" + "/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg" -->
+            <!-- !  "backdrop_path": "/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg", -->
+            <!-- !     [ngStyle]="{'background-size':'cover', 'background-image': 'url(http://image.tmdb.org/t/p/w500' + elementoIessimoOggettofilmSlider.backdrop_path + ')'}" -->
+
+
+
+
+            <img [src]="elementoIessimoOggettofilmSlider.backdrop_path | filtroImg" alt="">
+            <div class="infoFilmSlider">
+                
+                <h2>{{elementoIessimoOggettofilmSlider.title}}</h2>
+
+               
+
+                <p>{{elementoIessimoOggettofilmSlider.overview | slice: 0:160}}...</p>
+                <!-- ! Uso la pipe Angular "slice" per poter mostrare solo ed esclussivamente in numro di caratteri che voglio.In questo caso voglio mostrare al massimo 160 caratteri-->
+
+                <button mat-raised-button  (click)="vediDettaglioFilmSlider(elementoIessimoOggettofilmSlider)">Vedi dettaglio</button>
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev" (click)="indietroSlider()"></div>
+    <div class="swiper-button-next" (click)="avantiSlider()"></div>
+
+  
+</div>
+
+

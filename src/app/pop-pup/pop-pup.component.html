@@ -1,0 +1,33 @@
+<mat-dialog-content >
+    <!-- ! potevo usare anche un div "normale" -->
+    <h2 *ngIf="filmService.valorePopUp == 'restituisceFilmAcquistato'">
+        Vuoi eliminare dai film acquistati <em>{{data}}</em> ?
+    </h2>
+    <h2 *ngIf="filmService.valorePopUp == 'restituisceFilmPreferito'">
+        Vuoi eliminare dai preferiti <em>{{data}}</em> ?
+    </h2>
+    <h2 *ngIf="filmService.valorePopUp == 'logout'">
+        Sei sicuro di uscire?
+    </h2>
+    <h2 *ngIf="filmService.valorePopUp == 'messaggioHaiGiaAcquistatoFilm'">
+        Hai già acquistato il film <em>{{data}}</em> 
+    </h2>
+    <h2 *ngIf="filmService.valorePopUp == 'messaggioHaiGiaMessoAPreferitiQuestoFilm'">
+        Hai già messo a preferiti il film  <em>{{data}}</em> 
+    </h2>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="center" *ngIf="filmService.valorePopUp == 'restituisceFilmAcquistato' || filmService.valorePopUp == 'logout' || filmService.valorePopUp == 'restituisceFilmPreferito'">
+    <button mat-button (click)="clickSuButtonNo()">NO</button>
+    <button mat-button [mat-dialog-close]="true">SI</button>
+</mat-dialog-actions>
+
+
+<mat-dialog-actions align="center" *ngIf="filmService.valorePopUp == 'messaggioHaiGiaAcquistatoFilm' || filmService.valorePopUp == 'messaggioHaiGiaMessoAPreferitiQuestoFilm'">
+    <button mat-button (click)="clickSuButtonEsci()">ESCI</button>
+    <!-- <button mat-button [mat-dialog-close]="true">SI</button> -->
+</mat-dialog-actions>
+
+
+

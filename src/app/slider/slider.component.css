@@ -1,0 +1,24 @@
+div.infoFilmSlider>button {
+    background-color: #E50914;
+    
+
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+div.infoFilmSlider>button:hover {
+    background-color: #ffffff;
+    color: #E50914;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+
+

@@ -1,0 +1,97 @@
+<div class="sfondo">
+    <div class="contenitorePrincipaleForm">
+
+        <form [formGroup]="laMiaForm" (ngSubmit)="inviaForm()">
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input type="email" formControlName="email" matInput name="email"
+                    placeholder="inserici la tua email...">
+                <mat-icon matSuffix>email</mat-icon>
+
+
+                <mat-error *ngIf="this.laMiaForm.get('email')!.errors?.['required']">
+                    <!-- ! si può anche eliminare tale "this" e il tutto continua a funzionare -->
+                    E' obbligatorio scrivere l'email
+                </mat-error>
+
+
+                <mat-error *ngIf="laMiaForm.get('email')!.errors?.['pattern']">
+                    Email non valida
+                </mat-error>
+
+            </mat-form-field>
+
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input type="password" formControlName="password" matInput name="password"
+                    placeholder="inserici la tua password...">
+
+                <mat-icon matSuffix>visibility_lock</mat-icon>
+
+
+
+
+
+                <mat-error *ngIf="laMiaForm.get('password')!.errors?.['required']">
+                    E' obbligatorio scrivere la password
+                </mat-error>
+
+
+                <mat-error *ngIf="laMiaForm.get('password')!.errors?.['pattern']">
+                    <!-- Criterio di validazione per la password:
+                - almeno 8 caratteri
+                - almeno un carattere minuscolo
+                - almeno un carattere maiuscolo
+                - almeno un carattere numerico [0..9] -->
+                    Password non valida
+                </mat-error>
+
+            </mat-form-field>
+
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Conferma Password</mat-label>
+                <input type="password" formControlName="confermaPassword" matInput name="confermaPassword"
+                    placeholder="inserici un' altra volta tua password...">
+                <mat-icon matSuffix>visibility_lock</mat-icon>
+
+                <mat-error *ngIf="laMiaForm.get('confermaPassword')!.errors?.['required']">
+                    E' obbligatorio scrivere la password
+                </mat-error>
+
+
+                <mat-error *ngIf="laMiaForm.get('confermaPassword')!.errors?.['pattern']">
+                    Password non valida
+                </mat-error>
+
+
+                <mat-error *ngIf="laMiaForm.errors?.['erroreMatchPassword']">
+                    Le due password non coincidono
+                </mat-error>
+
+            </mat-form-field>
+
+
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+            <button type="submit" [disabled]="laMiaForm.invalid == true"
+                [ngClass]="{'buttonAbilitato': laMiaForm.valid == true}" mat-raised-button>INVIA</button>
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+
+
+        </form>
+
+
+
+    </div>
+
+    <div *ngIf="isMessaggio == true">
+        <h2>L'utente con Email: <em>{{miaEmail}}</em> si è registrato correttamente</h2>
+    </div>
+
+
+</div>

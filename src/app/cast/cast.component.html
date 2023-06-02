@@ -1,0 +1,72 @@
+<!-- <div *ngIf="isCastEsiste == true"> -->
+
+<div *ngIf="isCastEsiste == false">
+    <h2>Il cast del film <em>{{titoloFilm}}</em>  non è disponibile</h2>
+
+</div>
+
+
+<!-- <div *ngIf="isCastEsiste == true"> -->
+<div class="swiper s1">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div *ngFor="let elementoIessimoOggettoCast of arrayDiOggettiCast" class="swiper-slide">
+            <!--! urlBase per prendere le immagini dello slider "http://image.tmdb.org/t/p/w500" + "/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg" -->
+
+
+
+            <!-- !  "backdrop_path": "/3CxUndGhUcZdt1Zggjdb2HkLLQX.jpg", -->
+
+
+
+            <div class="contenitore">
+                <img [src]="elementoIessimoOggettoCast.profile_path! | filtroImg"
+                    [alt]="elementoIessimoOggettoCast.name">
+                <div class="infoFilmSlider">
+
+                    <h2>{{elementoIessimoOggettoCast.name}}</h2>
+                    <div>{{elementoIessimoOggettoCast.character}}</div>
+
+
+
+                    <!-- <p>{{elementoIessimoOggettoCast.overview | slice: 0:160}}...</p> -->
+                    <!-- ! Uso la pipe Angular "slice" per poter mostrare solo ed esclussivamente in numro di caratteri che voglio.In questo caso voglio mostrare al massimo 160 caratteri-->
+
+                    <!-- <button mat-raised-button color="warn" (click)="vediDettaglioFilmSlider(elementoIessimoOggettofilmSlider)">Vedi dettaglio</button> -->
+
+                </div>
+            </div>
+
+           
+
+
+
+
+        </div>
+
+
+
+    </div>
+    <div class="swiper-pagination"></div>
+    <!-- style="background-color: #f00;" -->
+
+    <!-- If we need navigation buttons -->
+    <div *ngIf="isCastEsiste == true" class="swiper-button-prev" (click)="indietroSliderCast()"></div>
+    <div *ngIf="isCastEsiste == true" class="swiper-button-next" (click)="avantiSliderCast()"></div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

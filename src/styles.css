@@ -1,1 +1,1147 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* !in questo modo ogni scroll dentro il tag "html", si verificherà NON in maniera brusca ma in modo animato */
+}
+
+
+
+@font-face {
+    font-family: icone-fontello;
+    /*! esso lo posso chiamare come voglio */
+    src:
+        url(./assets/font/icone-fontello.woff2) format('woff2'),
+        url(./assets/font/icone-fontello.woff) format('woff'),
+        url(./assets/font/icone-fontello.ttf);
+
+}
+
+body {
+    /* background-color: rgb(168, 229, 13); */
+    background-color: rgb(9, 9, 9);
+    color: #fff;
+    font-size: 1em;
+    font-family: robotoregular, sans-serif;
+    line-height: normal;
+}
+
+
+/* !nav */
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding: 0 5% 0 4%;
+    min-height: 68px;
+    align-items: center;
+    /** centro VERTICALMENTE gli elementi figli */
+    background-color: rgba(9, 9, 9, 0.755);
+    z-index: 900;
+    /* !per far si che la nav stia sempre sopra il video principale */
+
+}
+
+nav .nav-logo {
+    margin-right: 25px;
+    height: 30px;
+    /* background-color: rgb(249, 3, 3); */
+}
+
+nav .nav-logo img {
+    height: 100%;
+    vertical-align: auto;
+
+}
+
+/* nav .nav-info ul li.stato-selezionato {
+    font-weight: 900;
+
+} */
+
+nav .nav-info ul {
+    list-style: none;
+    /* *togliamo i puntini della lista */
+   
+}
+
+nav .nav-info>ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav .nav-info>ul>li {
+    float: left;
+    margin-left: 16px;
+    position: relative;
+    top: 7.5px;
+}
+
+nav .nav-info>ul>li:first-child {
+    margin-left: 0;
+}
+
+nav .nav-info>ul>li:not(.stato-selezionato) a:hover {
+    color: rgb(126, 117, 117);
+    /* *tale Regola è valida per tutti gli "li" che NON hanno la classe "stato-selezionato" quando "a" è in hover*/
+}
+
+nav .nav-info ul li a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    /**eredita il colore di suo ANTENATO piu vicino(body) che abbia la proprietà color */
+    padding: .8rem 0;
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+    /* line-height: 61.6px */
+
+}
+
+nav .nav-info ul li ul li {
+    width: 100%;
+}
+
+nav .nav-info ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+
+}
+
+nav .nav-info ul li ul li a {
+    border-bottom: 7px solid black;
+    background-color: rgba(9, 9, 9, 0.204);
+    /* background-color: rgb(224, 29, 29); */
+    /* width: 100%; */
+}
+
+nav .nav-info ul li ul li {
+
+    position: relative;
+    right: 34px;
+    width: 92px;
+
+}
+
+nav .nav-info ul li ul li:last-child a {
+    border-bottom: 0;
+}
+
+
+nav .nav-info ul li:hover ul {
+    display: block;
+}
+
+/* todo icone a destra*/
+nav .nav-icone {
+    /* background-color: rgb(5, 202, 35); */
+    position: absolute;
+    right: 5%;
+}
+
+nav .nav-icone {
+    display: flex;
+    align-items: center;
+    /* * centro VERTICALMENTE gli elementi figli */
+    /* background-color: blue; */
+    flex-direction: row;
+    /* *di default si posizionano su una riga i figli */
+}
+
+nav .nav-icone input[type="text"] {
+    outline: none;
+    /**in questo modo quando vado in focus sull'input,viene eliminato quel bordo blu di default*/
+    border: 1px solid #fff;
+    background-color: rgb(74, 74, 74);
+    color: #fff;
+    padding: 4px 0;
+    text-indent: 10px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    /* visibility: hidden;
+    opacity: 0; */
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+nav .nav-icone mat-icon {
+    width: 20px;
+    /* height: 20px; */
+    /* background-color: rgb(151, 9, 9); */
+    margin-left: 16px;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+nav .nav-icone>img {
+    height: 20px;
+    margin-left: 16px;
+    /* background-color: rgb(170, 9, 9); */
+    cursor: pointer;
+}
+
+/* todo icone */
+/* !nav */
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+
+
+
+
+
+
+/* !video principale MERCOLEDI */
+main {
+    /* background-color: rgb(22, 8, 146); */
+    font-family: none;
+    /* !in questo modo viene preso il font-family di default che ha ogni Browser.Nel caso di chrome quello di default è "Times new roman"(quest'ultimo fa parte della categoria dei "serif")*/
+}
+
+main .video-principale {
+    position: relative;
+    top: -68px;
+    height: 100vh;
+    /* width: 100%; */
+}
+
+/* main .video-principale .volume-video::before{
+    font-family: icone-fontello;
+    content: "V";
+    position: fixed;
+    z-index: 800;
+    font-size: 3rem;
+    right: 20px;
+    top: 80px;
+
+}
+
+main .video-principale .volume-video.muted::before{
+    content: "v";
+} */
+
+main .video-principale>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* * queste tre proprietà insieme mi permette di avere uno SFONDO di video che occupa il 100% del suo contenitore sia in altezza che in larghezza inoltre tale video sarà sempre CENTRATO */
+    opacity: 0.9;
+    /* *per far si che le scritte di colore bianco sopra il video, si vedano molto bene */
+
+}
+
+main .video-principale .container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    padding-left: 60px;
+    /* background-color: rgb(10, 176, 13); */
+    width: 50vw;
+
+}
+
+main .video-principale .container>* {
+    /* oppure main .video-principale .container>div  */
+    margin-top: 32px;
+    /* *tale regola vale per TUTTI i FIGLI DIRETTI della classe "container". Il selettore "*", seleziona sia figli dello stesso tipo che figlti tipi diversi ( esempio p,h2,div ecc) */
+}
+
+main .video-principale .container>div:first-child {
+    margin-top: 0;
+    /* * in questo modo centro Verticalmente il contenuto della classe "container"*/
+    /* background-color: rgb(196, 73, 73); */
+}
+
+main .video-principale .container .parte-superiore {
+    display: flex;
+    align-items: center;
+    /* *centro VERTICALMENTE gli elementi figli rispetto al padre di classe "parte-superiore" */
+    /* background-color: aqua; */
+
+}
+
+main .video-principale .container .parte-superiore>h2 {
+    margin-left: 12px;
+    text-transform: uppercase;
+    /* *converto lettere a MAIUSCOLA */
+    font-weight: bold;
+    letter-spacing: 10px;
+    /* *spazio orizzontale tra ogni singola lettera è 10px */
+
+
+}
+
+main .video-principale .container .parte-media .star {
+    color: #f00;
+    margin-bottom: 1rem;
+}
+
+main .video-principale .container .parte-media .star span {
+    color: #fff;
+
+}
+
+main .video-principale .container .parte-media>h1 {
+    font-size: 100px;
+    /* width: 40vw; */
+    line-height: 90px;
+    /* * in questo modo le due righe saranno più vicine verticalmente */
+    height: auto;
+    margin-bottom: 1rem;
+    /* color: #fff; */
+    font-family: serif;
+
+}
+
+main .video-principale .container .parte-media p {
+    font-size: 1.4rem;
+}
+
+main .video-principale .container .parte-media .protagonista {
+    margin-top: 1.5rem;
+    /* background-color: rgb(163, 19, 19); */
+}
+
+main .video-principale .container .parte-media .protagonista p {
+    font-size: 1.1rem;
+}
+
+main .video-principale .container .parte-media .protagonista p span {
+    color: #f00;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main .video-principale .container .parte-inferiore {
+    display: flex;
+    /* background-color: rgb(26, 178, 87); */
+    margin-top: 1rem;
+
+
+}
+
+main .video-principale .container .parte-inferiore>button {
+    margin-left: 16px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    /* padding: 0 36px; */
+    width: 40%;
+    justify-content: center;
+    border: 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 400ms ease-in;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    -ms-transition: opacity 400ms ease-in;
+    -o-transition: opacity 400ms ease-in;
+}
+
+main .video-principale .container .parte-inferiore>button:first-child {
+    margin-left: 0;
+}
+
+main .video-principale .container .parte-inferiore>button>mat-icon {
+    margin-right: 12px;
+}
+
+main .video-principale .container .parte-inferiore>button:last-child {
+    background-color: rgb(109, 109, 110, 0.7);
+    color: #fff;
+}
+
+main .video-principale .container .parte-inferiore>button:hover {
+    opacity: 0.5;
+}
+
+/* !video principale MERCOLEDI */
+
+
+
+
+/* !la mia lista ANIMATION  */
+/* !SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS  */
+body section.la-mia-lista {
+    /* background-color: rgb(120, 12, 12); */
+    position: relative;
+    /* top: -25vh; */
+    margin-top: -25vh;
+    background: linear-gradient(to bottom, transparent 6vh, rgb(9, 9, 9) 25vh);
+    /* *in questo modo l'effetto di SFUMATURA sarà VERSO il basso e tale effetto sarà compresso tra 6vh e 25vh  */
+
+}
+
+body section.la-mia-lista:nth-of-type(2) {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+body section.la-mia-lista:nth-of-type(3) {
+    margin-top: 0;
+    margin-bottom: 190px;
+}
+
+section.la-mia-lista .lista>h1 {
+    margin-left: 50px;
+    font-family: serif;
+    /* background-color: rgb(172, 224, 14); */
+}
+
+section.la-mia-lista .lista .slider {
+    display: flex;
+    overflow-x: scroll;
+    /* *in questo modo mi compare la scrollbar orizzontale APPENA SOTTO il div di classe "slider" e tale scrollbar funzionerà solo ed  esclussivamente rispetto al div di classe "slider" e non funzionerà rispetto al "html" */
+    overflow-y: hidden;
+    /* *in questo modo quando l'utente fa scroll verticale direttamente sulla card , la parte ECCEDENTE della card lungo l'asse Y ,sarà nascosta */
+    scrollbar-width: none;
+    /* *valido per Mozilla per poter ELimnare la scroll bar orizzontale che si trovava APPENA sotto il div di classe "slider"  */
+    margin-top: 1px;
+    padding: 37px 0;
+    /* * distanza tra il bordo inferiore( e superiore ) del div di classe "slider" e il CONTENUTO di tale div di classe "slider"  ( CRESCE la scattola "slider" verso su e verso giù )*/
+    /* !il valore di tale padding dipende dal valore di transform:scale */
+    /* background-color: rgb(13, 213, 60); */
+}
+
+section.la-mia-lista .lista .slider::-webkit-scrollbar {
+    display: none;
+
+}
+
+section.la-mia-lista .lista .slider .card {
+    margin-left: 8px;
+    position: relative;
+    cursor: pointer;
+    min-width: 20%;
+    transition: transform 400ms ease-in;
+    -webkit-transition: transform 400ms ease-in;
+    -moz-transition: transform 400ms ease-in;
+    -ms-transition: transform 400ms ease-in;
+    -o-transition: transform 400ms ease-in;
+    /**in questo modo l'ingrandimento del div di classe "card" avrà un certo tempo di transizione 400 millesecondi(oppure 0.4 secondi)*/
+}
+
+section.la-mia-lista .lista .slider .card:first-child {
+    margin-left: 48px;
+    /* background-color: rgb(196, 17, 17); */
+}
+
+.card {
+    background-color: #000;
+}
+
+section.la-mia-lista .lista .slider .card>img {
+    width: 100%;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: block;
+
+    /* *in questo modo eliminiamo quel piccolo spazio che c'era tra il bordo inferiore dell'immagine e il bordo inferiore del suo div contenitore (l'altra opzione è scrivere vertical-align: top)*/
+    /* vertical-align: top; */
+
+}
+
+
+section.la-mia-lista .lista .slider .card:hover>img {
+    opacity: .4;
+
+
+}
+
+
+
+section.la-mia-lista .lista .slider .card>.testo>p {
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    color: #fff;
+    /* background-color: rgb(62, 27, 189); */
+}
+
+section.la-mia-lista .lista .slider .card:hover {
+    transform: scale(140%);
+    -webkit-transform: scale(140%);
+    -moz-transform: scale(140%);
+    -ms-transform: scale(140%);
+    -o-transform: scale(140%);
+    z-index: 100;
+}
+
+section.la-mia-lista .lista .slider .card>.testo {
+    position: absolute;
+    top: 0;
+    /* background-color: rgba(10, 10, 10, 0.7); */
+    height: 100%;
+    width: 100%;
+    /**in questo modo i div di classe "testo" occuperà il 100% del suo contenitore padre "card" sia in altezza che in larghezza*/
+    display: none;
+
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo {
+    display: block;
+    text-transform: uppercase;
+    /* background-color: aqua; */
+
+}
+
+section.la-mia-lista .lista .slider .card>.testo p {
+    position: relative;
+    top: 30%;
+    padding-left: 2rem;
+    font-size: .8rem;
+    font-family: serif;
+    max-width: 240px;
+    /* background-color: #12c40fa4; */
+
+
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icona-play {
+    /* background-color: rgb(198, 16, 16); */
+    text-transform: none;
+    position: absolute;
+    left: 2rem;
+    bottom: 25%;
+    font-size: .5rem;
+    /* background-color: rgb(173, 12, 12); */
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icona-play .play {
+    font-family: icone-fontello;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #f00;
+    padding: .5rem 1.5rem;
+    margin-top: .5rem;
+    transition: 100ms ease-in;
+    -webkit-transition: 100ms ease-in;
+    -moz-transition: 100ms ease-in;
+    -ms-transition: 100ms ease-in;
+    -o-transition: 100ms ease-in;
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icona-play .play:hover {
+    opacity: .4;
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icona-play .play span {
+    font-size: .8rem;
+    font-family: serif;
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icone-fontello-sopra-slider {
+    /* background-color: rgb(192, 5, 5); */
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    font-family: icone-fontello;
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icone-fontello-sopra-slider div {
+    background-color: #f00;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    transition: 350ms ease-in;
+    -webkit-transition: 350ms ease-in;
+    -moz-transition: 350ms ease-in;
+    -ms-transition: 350ms ease-in;
+    -o-transition: 350ms ease-in;
+}
+
+section.la-mia-lista .lista .slider .card:hover>.testo .icone-fontello-sopra-slider div:hover {
+    color: #f00;
+    background-color: #fff;
+
+}
+
+
+section .descrizione {
+    width: 36px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* background-color: rgb(3, 28, 189); */
+}
+
+section .descrizione img {
+    width: 100%;
+    vertical-align: top;
+    /* display: block; */
+}
+
+/* !la mia lista ANIMATION */
+/* !SLIDER FATTO SOLO ED ESCLUSSIVAMENTE UTILIZZANDO CSS  */
+
+
+
+
+
+/* ! slider principale */
+div.sliderContenitore {
+
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* background-color: #5f9e11; */
+    height: 400px;
+}
+
+div.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+div.swiper div.swiper-button-prev,
+div.swiper div.swiper-button-next {
+    color: #f00;
+    font-weight: 900;
+}
+
+div.swiper .swiper-wrapper .swiper-slide .infoFilmSlider {
+    background-color: rgba(0, 0, 0, 0.4);
+
+    position: absolute;
+    bottom: 0;
+    /* padding-left: 3rem; */
+    padding: 1.5rem;
+    width: 100%;
+
+}
+
+
+/* ! slider principale */
+
+
+
+
+
+/* ! filmList */
+.imgPoster {
+    cursor: pointer;
+}
+/* ! filmList */
+
+
+/* ! rating:stelleine gialle */
+ngb-rating {
+    color: #ff0;
+}
+
+/* ! rating:stelleine gialle */
+
+
+
+
+
+
+/* !swiper:slider */
+.swiper-pagination-bullet {
+    background-color: #f00 !important;
+    width: .6rem !important;
+    height: .6rem !important;
+}
+
+.swiper-pagination-progressbar-fill {
+    border: 3px solid rgb(255, 0, 0);
+    /* border-radius: 5px; */
+}
+
+.swiper-pagination-progressbar {
+    background-color: rgb(255, 0, 0);
+    /* border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; */
+}
+
+/* !swiper:slider */
+
+
+
+
+/* ! form */
+div.contenitorePrincipaleForm {
+    width: 19%;
+    /* background-color: #bb2b2b; */
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f00;
+
+
+}
+
+form button,
+form mat-form-field {
+    width: 100%;
+}
+
+/* ! form */
+
+
+
+
+
+/* !footer */
+footer {
+    padding: 32px 48px;
+    background-color: rgb(9, 9, 9);
+    /* position: relative; */
+    /* top: -20vh; */
+}
+
+footer>* {
+    /* oppure footer>div */
+    margin-top: 32px;
+    /* * tale regola vale per tutti i figli di footer */
+}
+
+footer>ul.social {
+    /* background-color: rgb(44, 199, 13); */
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+footer>.social li a {
+    display: block;
+    text-decoration: none;
+    background-color: #f00;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff;
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+    font-family: icone-fontello;
+}
+
+footer>.social li a:hover {
+    color: #f00;
+    background-color: #fff;
+
+}
+
+
+/* *opzione1 */
+/* footer .social>li {
+    margin-left: 12px;
+}
+
+footer .social li:first-child {
+    margin-left: 0;
+} */
+/* *opzione1 */
+
+/* *opzione2 */
+footer .social li:not(:first-child) {
+    margin-left: 12px;
+    /* *tale regola vale per tutti i figli "li" tranne per il PRIMO FIGLIO "li" */
+}
+
+/* *opzione2 */
+
+
+
+footer .footer-informazione ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer .footer-informazione ul {
+    list-style: none;
+    /* background-color: #fff; */
+}
+
+footer .footer-informazione ul li {
+    float: left;
+    /* background-color: aqua; */
+    width: 25%;
+    margin-bottom: 1.5vh;
+    /* * l'unità di misura relativa "vh" ha come riferimento l'intera altezza del browser */
+
+}
+
+footer .footer-informazione ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: .8rem;
+    /** l'unità di misura relativa "rem" ,ha Sempre come riferimento il font-size del tag html(root) e quindi anche del tag body */
+    font-weight: normal;
+}
+
+footer .copyright>p {
+    font-size: .7rem;
+    font-weight: normal;
+    color: gray;
+}
+
+/* !footer */
+
+
+
+
+
+
+/* !bottone scroll su */
+button[type="button"].scroll-su {
+    background-color: rgb(197, 26, 26);
+    position: fixed;
+    z-index: 500;
+    bottom: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color:  #E50914;
+    border: none;
+    outline: none;
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+    /*!opacity:1  default*/
+    /*!visibility: visible; default */
+}
+
+button[type="button"].scroll-su:hover {
+    color:  #E50914;
+    background-color: #fff;
+}
+
+/* !bottone scroll su */
+
+
+
+mat-card-title {
+    text-align: center;
+    height: 7rem;
+    padding-top: 1rem;
+    /* font-size: 2.9rem; */
+    font-family: serif !important;
+    /* color: #fff; */
+    text-transform: uppercase !important;
+    font-weight: 900 !important;
+}
+
+
+mat-card {
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+
+mat-card:hover {
+    transform: scale(114%);
+    -webkit-transform: scale(114%);
+    -moz-transform: scale(114%);
+    -ms-transform: scale(114%);
+    -o-transform: scale(114%);
+}
+
+.grid .descrizione {
+    position: absolute;
+    top: 112px;
+    left: 8.5%;
+    /* width: 1px !important; */
+
+}
+
+mat-card-content>button[type="button"] {
+    background-color: rgba(255, 255, 0, 0.58);
+    display: block;
+    margin-top: 1rem;
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+mat-card-content>button[type="button"]:hover {
+
+    background-color: rgba(255, 255, 0, 0.817);
+
+}
+
+mat-card-content>span {
+    margin-left: 3.5rem;
+
+
+}
+
+
+
+
+
+
+
+/* !media query */
+@media screen and (max-width: 870px) {
+
+    nav .nav-logo {
+        margin-right: 1px;
+        height: 20px;
+        /* background-color: rgb(244, 244, 244); */
+    }
+
+    nav .nav-info>ul>li:nth-child(2){
+        /* margin-left: 0; */
+        display: none;
+    }
+
+    nav .nav-info>ul>li {
+        /* float: left; */
+        margin-left: 10px;
+        /* position: relative; */
+    }
+
+    nav .nav-icone input[type="text"] {
+        width: 150px;
+    }
+
+    /* !video principale mercoledi */
+
+    main .video-principale .container {
+       
+        top: 44%;
+        
+    
+    }
+    main .video-principale .container .parte-media {
+        margin-top: 0;
+    }
+
+    main .video-principale .container .parte-media .star {
+        margin-bottom: 0;
+    }
+
+    main .video-principale .container .parte-media>h1 {
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+
+    main .video-principale .container .parte-media p {
+        font-size: 1.1rem;
+    }
+
+    main .video-principale .container .parte-media .protagonista p,
+    main .video-principale .container .parte-media .protagonista p span {
+        font-size: .9rem;
+        /* background-color: rgb(43, 172, 14); */
+
+    }
+
+    main .video-principale .container .parte-inferiore {
+        flex-direction: column;
+    }
+
+    main .video-principale .container .parte-inferiore button {
+        width: 70%;
+    }
+
+    main .video-principale .container .parte-inferiore>button:last-child {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    /* !video principale mercoledi */
+
+
+
+    
+    /* !Animation-Horror-Fantasy-Romance */
+    section.la-mia-lista .lista .slider .card {
+        min-width: 70%;
+    }
+
+    section.la-mia-lista .lista .slider .card:hover .testo>p {
+        top: 40%;
+    }
+    /* !Animation-Horror-Fantasy-Romance */
+
+
+    footer .footer-informazione ul li {
+       
+        width: 33.33%;
+        margin-bottom: 1vh;
+        /* * l'unità di misura relativa "vh" ha come riferimento l'intera altezza del browser */
+    
+    }
+
+
+}
+/* !media query */
+
+
+
+
+
+@media screen and (max-width: 400px) {
+
+    nav .nav-logo {
+        
+        display: none;
+    }
+
+    nav .nav-info>ul>li:nth-child(3){
+        display: none;
+    }
+
+    nav .nav-icone mat-icon:nth-of-type(2) {
+        display: none;
+        
+    }
+
+    nav .nav-info ul {
+        /* *togliamo i puntini della lista */
+        position: relative;
+        left: -30px;
+       
+    }
+
+    nav .nav-icone {
+        
+        right: 0%;
+    }
+
+    nav .nav-icone mat-icon {
+       
+        margin-left: 5px;
+       
+    }
+    
+    nav .nav-icone>img {
+        
+        margin-left: 5px;
+       
+    }
+
+    nav .nav-icone input[type="text"] {
+        width: 120px;
+    }
+
+    nav .nav-info {
+        position: relative;
+        left: -19px;
+       
+    }
+
+    main .video-principale .container {
+       
+        padding-left: 30px;
+        /* background-color: rgb(10, 176, 13); */
+        width: 60vw;
+    
+    }
+
+
+    main .video-principale .container .parte-media .star {
+        display: none;
+    }
+
+    main .video-principale .container .parte-media .protagonista {
+        /* margin-top: 1.5rem; */
+        /* background-color: rgb(163, 19, 19); */
+        display: none;
+    }
+
+    main .video-principale .container .parte-media>h1 {
+        font-size: 40px;
+        /* width: 40vw; */
+        line-height: 90px;
+        /* * in questo modo le due righe saranno più vicine verticalmente */
+        height: auto;
+        margin-bottom: 1rem;
+        /* color: #fff; */
+        font-family: serif;
+    
+    }
+
+
+    footer .footer-informazione ul li {
+       
+        width: 50%;
+        margin-bottom: 1vh;
+        /* * l'unità di misura relativa "vh" ha come riferimento l'intera altezza del browser */
+    
+    }
+
+}

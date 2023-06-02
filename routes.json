@@ -1,0 +1,6 @@
+{
+  "/users*": "/600/users$1",
+  "/posts*": "/640/posts$1",
+  "/films-acquistati*": "/640/films-acquistati$1",
+  "/films-preferiti*": "/640/films-preferiti$1"
+}

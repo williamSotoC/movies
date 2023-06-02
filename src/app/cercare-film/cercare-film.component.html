@@ -1,0 +1,19 @@
+<h1>Titoli relativi a: <em>{{valoreSegnaposto | uppercase}}</em> </h1>
+<div class="button">
+    <button mat-raised-button routerLink="/home">TORNA ALLA HOME</button>
+</div>
+
+
+<div *ngIf="isFilmEsiste == false">
+    <h2>Il film <em>{{valoreSegnaposto}} </em>  non è disponibile</h2>
+
+</div>
+
+<div *ngIf="isFilmEsiste == true">
+    <app-films-list [arrayDiOggettiFilmsPosterr]="arrayDiOggettiCercare"></app-films-list>
+</div>
+
+
+
+<mat-progress-spinner *ngIf="caricamento == true" color="warn" mode="indeterminate" value="50">
+</mat-progress-spinner>

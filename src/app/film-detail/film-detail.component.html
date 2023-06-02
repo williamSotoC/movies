@@ -1,0 +1,113 @@
+<div class="grid" *ngIf="oggettoFilmDetail != undefined">
+    <mat-card class="example-card">
+
+        <h1>{{oggettoFilmDetail.title}}</h1>
+
+        <img mat-card-image [src]="oggettoFilmDetail.backdrop_path | filtroImgBackground" alt="{{oggettoFilmDetail.title}}"
+            class="imgPoster">
+        <!-- ! ATTENZIONE: creare pipe per le immagini non trovate -->
+        <mat-card-content>
+            <!-- <p>
+                {{elementoIessimoOggettoFilmPoster.overview}}
+            </p> -->
+            vote average: {{oggettoFilmDetail.vote_average | number: "1.1-2"}}
+            <!-- ! "number" è nome della pipe Angular-->
+            <!-- ! 1 di sinistra mi dice la quantità di numeri che voglio avere a sinistra del punto -->
+            <!-- ! 1 di destra mi dice la quantità MINIMA di numeri che voglio avere a destra del punto -->
+            <!-- ! 2 mi dice la quantità MASSIMA di numeri che voglio avere a destra del punto -->
+
+            <ngb-rating [rate]="oggettoFilmDetail.vote_average">
+                <!-- ! "[rate]" è un attributo del tag "<ngb-rating"-->
+                <!-- ! "[rate]" avrà come valore la media dei voti di ogni filmDetail-->
+                <!-- ! Tale media avrà al massimo due cifre dopo la virgola(vedi pipe number) -->
+
+
+            </ngb-rating>
+            <em *ngFor="let elmentoIessimoOggetto of oggettoFilmDetail.genres">
+                <span> {{elmentoIessimoOggetto.name}}</span>
+            </em>
+            <em *ngFor="let elmentoIessimoOggetto of oggettoFilmDetail.production_countries">
+                <span> {{elmentoIessimoOggetto.iso_3166_1}}</span>
+            </em>
+
+
+            <div>
+                {{oggettoFilmDetail.overview}}
+            </div>
+
+            <button type="button" mat-button (click)="vediYoutube(oggettoFilmDetail!.title)">Vedi trailer</button>
+        </mat-card-content>
+
+
+    </mat-card>
+</div>
+
+
+
+
+<div *ngIf="istrailerVisible == true">
+    <router-outlet></router-outlet>
+    <!-- ! Uso la rotta children -->
+</div>
+
+<!-- <h2>Trailer:</h2>
+<div *ngIf="oggettoFilmDetail != undefined">
+    <app-video-you-tube [titoloFilm]="oggettoFilmDetail.title"></app-video-you-tube>
+</div> -->
+
+
+<hr>
+
+<h1>Cast:</h1>
+<div class="sliderContenitore1" *ngIf="oggettoFilmDetail != undefined">
+
+    <app-cast [titoloFilm]="oggettoFilmDetail.title"></app-cast>
+    <!-- ! opzione2: non scrivere *ngIf="oggettoFilmDetail != undefined" e aggiungere il punto interrogativo o esclamativo: oggettoFilmDetai?    perche altrimenti mi da il seguente errore:   Object is possibly 'undefined'-->
+
+</div>
+
+
+
+
+
+
+<div class="buttonCrew">
+    <button id="crew" type="button" mat-button (click)="vediCrew()">Vedi crew</button>
+</div>
+
+<div *ngIf="isCrewvisible == true">
+    <h1>Crew:</h1>
+    <div *ngIf="isCrewEsiste == true">
+
+        <div class="contenitoreCrew">
+            <div *ngFor="let elementoIessimoOggettoCast of arrayDiOggettiCrew">
+
+                <p>{{elementoIessimoOggettoCast.name}}</p>
+                <em>{{elementoIessimoOggettoCast.job}}</em>
+
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="isCrewEsiste == false">
+        <h2 *ngIf="oggettoFilmDetail != undefined" id="h2">La crew del film <em>{{oggettoFilmDetail.title}}</em> non è
+            disponibile</h2>
+    </div>
+
+   
+
+</div>
+
+
+
+
+
+
+
+<div *ngIf="oggettoFilmDetail != undefined">
+    <app-film-similari [titoloFilmSimilari]="oggettoFilmDetail.title"></app-film-similari>
+</div>
+
+
+<mat-progress-spinner *ngIf="caricamento == true" color="warn" mode="indeterminate" value="50">
+</mat-progress-spinner>

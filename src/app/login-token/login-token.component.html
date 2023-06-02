@@ -1,0 +1,77 @@
+<div class="sfondo">
+    <div class="contenitorePrincipaleForm">
+
+        <form #laMiaForm="ngForm" (ngSubmit)="inviareUtenteLoggatoAlServerLocale()">
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input type="email" #variabileTemplateEmail="ngModel" [(ngModel)]="modello.email" matInput name="email"
+                    placeholder="inserici la tua email..." required
+                    pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+                <mat-icon matSuffix>email</mat-icon>
+
+
+                <mat-error *ngIf="variabileTemplateEmail.hasError('required')">
+                    <!-- ! si può anche eliminare tale "this" e il tutto continua a funzionare -->
+                    E' obbligatorio scrivere l'email
+                </mat-error>
+
+
+                <mat-error *ngIf="variabileTemplateEmail.hasError('pattern')">
+                    Email non valida
+                </mat-error>
+
+            </mat-form-field>
+
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input type="password" #variabileTemplatePassword="ngModel" [(ngModel)]="modello.password" matInput
+                    name="password" placeholder="inserici la tua password..." required
+                    pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$">
+                <mat-icon matSuffix>visibility_lock</mat-icon>
+
+
+                <mat-error *ngIf="variabileTemplatePassword.hasError('required')">
+                    E' obbligatorio scrivere la password
+                </mat-error>
+
+
+                <mat-error *ngIf="variabileTemplatePassword.hasError('pattern')">
+                    <!-- Criterio di validazione per la password:
+                - almeno 8 caratteri
+                - almeno un carattere minuscolo
+                - almeno un carattere maiuscolo
+                - almeno un carattere numerico [0..9] -->
+                    Password non valida
+                </mat-error>
+
+            </mat-form-field>
+
+
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+            <button type="submit" [disabled]="laMiaForm.invalid == true"
+                [ngClass]="{'buttonAbilitato': laMiaForm.valid == true}" mat-raised-button>INVIA</button>
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+
+
+        </form>
+
+    </div>
+
+    <div *ngIf="miaEmail != undefined && mioToken != undefined">
+        <!-- *opzione 1 -->
+        <!-- <h5>{{messaggio}}</h5> -->
+        <!-- *opzione 1 -->
+        <!-- *opzione 2 -->
+        <h4>L'utente con Email: <em>{{miaEmail}}</em> è autenticato con il seguente Token: <em>{{mioToken}}</em> </h4>
+        <!-- *opzione 2 -->
+    </div>
+
+    <div *ngIf="messaggio != undefined">
+        <h4>{{messaggio}}</h4>
+
+    </div>
+</div>

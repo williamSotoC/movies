@@ -1,0 +1,27 @@
+<hr>
+
+
+<h1>Film similari:</h1>
+
+
+<!-- <div class="grid">
+    <mat-card class="example-card" *ngFor="let elementoIessimoOggettoFilmSimilare of arrayDiOggettiFilmSimilari">
+        <mat-card-header>
+            <mat-card-title>{{elementoIessimoOggettoFilmSimilare.title}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="elementoIessimoOggettoFilmSimilare.poster_path | filtroImg" alt="{{elementoIessimoOggettoFilmSimilare.title}}" (click)="vediDettaglioFilmSimilare(elementoIessimoOggettoFilmSimilare)" class="imgPoster">
+        <mat-card-content>
+           
+        </mat-card-content>
+        
+    </mat-card>
+</div> -->
+<div *ngIf="isFilmSimilariEsiste == true">
+    <app-films-list [arrayDiOggettiFilmsPosterr]="arrayDiOggettiFilmSimilari"></app-films-list>
+
+</div>
+
+<div *ngIf="isFilmSimilariEsiste == false">
+   <h2>I film similari riguardante il film <em>{{titoloFilmSimilari}}</em>  non è disponibile</h2> 
+
+</div>

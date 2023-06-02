@@ -1,0 +1,22 @@
+<div class="routerOutlet">
+    <div  *ngIf="isVideoEsiste == true">
+
+        <iframe *ngIf="valoreKeyVideoYouTube != undefined" width="560" height="315" [src]="valoreKeyVideoYouTube | filtroYouTube" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+    <div *ngIf="isVideoEsiste == false">
+        <h2>Il trailer del film <em>{{filmService.titoloFilm}}</em> non è disponibile</h2>
+
+    </div>
+</div>
+
+
+<mat-progress-spinner *ngIf="caricamento == true"
+
+color="warn"
+mode="indeterminate"
+value="50">
+</mat-progress-spinner>

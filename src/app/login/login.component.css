@@ -1,0 +1,80 @@
+form {
+    background-color: #0000007a;
+}
+
+form button {
+    background-color: rgba(255, 0, 0, 0.337);
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+form button.buttonAbilitato {
+    background-color: #f00;
+
+
+}
+
+mat-checkbox {
+    /* color: #fff !important; */
+    background-color: #fff ;
+    width: 100%;
+    height: 2.8rem;
+}
+
+
+/* .contenitorePrincipaleForm {
+
+    background-color: #ec0505;
+} */
+.sfondo {
+    background: url(../../assets/multimedia/sfondo-netflix.jpg) repeat ;
+    background-size: cover ;
+}
+
+
+div.domanda {
+    text-align: center;
+   
+    font-size: .7rem;
+    /* background-color: rgb(136, 11, 11); */
+    min-height: 70px;
+    line-height: 70px;
+    border-bottom: 5px solid rgb(255, 255, 255) ;
+    border-top: 5px solid rgb(255, 255, 255) ;
+}
+
+div.domanda a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+div.descrizioneNetflix {
+    /* background-color: rgb(56, 20, 167); */
+    height: 60px;
+    font-size: .85rem;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #fff;
+
+}
+
+button[type="button"] {
+    background-color: #f00 !important;
+    /* height: 50px; */
+
+}
+
+
+div h2 {
+    text-align: center;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    background-color: #0000008b;
+}
+
+div h2 em {
+    color: #f00;
+}

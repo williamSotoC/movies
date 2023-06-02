@@ -1,0 +1,52 @@
+h1 {
+    margin-left: 1.5rem;
+
+}
+
+em {
+    color: #E50914;
+    font-size: 1.6rem;
+}
+
+mat-progress-spinner {
+    margin: 0 auto;
+}
+
+div h2 {
+    text-align: center;
+    font-family: serif;
+}
+
+div.button {
+    display: flex;
+    justify-content: end;
+    margin-right: .9rem;
+    margin-top: -2.7rem;
+    margin-bottom: 4rem;
+
+   
+
+}
+
+div.button button {
+    width: 13%;
+
+    background-color: #E50914;
+    
+
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+
+}
+div.button button:hover {
+    background-color: #ffffff;
+    color: #E50914;
+    
+
+   
+
+}
+

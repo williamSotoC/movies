@@ -1,0 +1,75 @@
+img {
+    width: 100%;
+    opacity: 0.6;/* *per far si che le scritte di colore bianco sopra il video, si vedano molto bene */
+
+    /* background-color: #ff08087a; */
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+}
+
+img:hover {
+  transform: scale(120%);
+  -webkit-transform: scale(120%);
+  -moz-transform: scale(120%);
+  -ms-transform: scale(120%);
+  -o-transform: scale(120%);
+  /* z-index: 1000; */
+}
+
+.swiper-wrapper {
+  margin-top: 2.2rem;
+
+}
+
+div.swiper .swiper-wrapper .swiper-slide .infoFilmSlider {
+  background-color: rgba(83, 74, 74, 0);
+  text-align: center;
+  height: 160px;
+
+
+
+}
+
+h2 {
+  font-family: serif;
+  transition: 400ms ease-in;
+  -webkit-transition: 400ms ease-in;
+  -moz-transition: 400ms ease-in;
+  -ms-transition: 400ms ease-in;
+  -o-transition: 400ms ease-in;
+}
+
+
+.contenitore:hover .infoFilmSlider h2 {
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+  /* color: #000; */
+}
+
+h2>em {
+  color: #f00;
+}
+
+h2 {
+  text-align: center;
+}
+
+.infoFilmSlider>div {
+
+  color: grey;
+
+}
+
+
+
+
+
+
+
+

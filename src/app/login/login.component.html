@@ -1,0 +1,108 @@
+<div class="sfondo">
+    <div class="contenitorePrincipaleForm">
+
+        <form [formGroup]="laMiaForm" (ngSubmit)="inviaForm()">
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input type="email" formControlName="email" matInput name="email"
+                    placeholder="inserici la tua email...">
+                <mat-icon matSuffix>email</mat-icon>
+
+
+                <mat-error *ngIf="controllo('email')?.errors?.['required']">
+                    <!-- *ngIf="prendereEmail.errors!['pattern']" -->
+                    <!-- *ngIf="this.laMiaForm.get('email')!.errors?.['pattern']" -->
+                    E' obbligatorio scrivere l'email
+
+
+
+                </mat-error>
+                <mat-error *ngIf="controllo('email')?.errors?.['pattern']">
+
+                    Email non valida
+
+
+
+                </mat-error>
+
+            </mat-form-field>
+
+
+
+            <mat-form-field appearance="fill">
+                <mat-label>Password</mat-label>
+                <input type="password" formControlName="password" matInput name="password"
+                    placeholder="inserici la tua password...">
+                <mat-icon matSuffix>visibility_lock</mat-icon>
+
+
+                <mat-error *ngIf="controllo('password')?.errors?.['required']">
+
+                    E' obbligatorio scrivere la password
+
+
+
+                </mat-error>
+                <mat-error *ngIf="controllo('password')?.errors?.['pattern']">
+                    <!-- Criterio di validazione per la password:
+                - almeno 8 caratteri
+                - almeno un carattere minuscolo
+                - almeno un carattere maiuscolo
+                - almeno un carattere numerico [0..9] -->
+                    Non valida:inserire almeno 8 caratteri
+
+
+
+                </mat-error>
+
+            </mat-form-field>
+
+
+
+            <section class="example-section">
+                <mat-checkbox class="example-margin" formControlName="checked">Ricorda password</mat-checkbox>
+            </section>
+
+
+
+
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+            <button type="submit" [disabled]="laMiaForm.invalid == true"
+                [ngClass]="{'buttonAbilitato': laMiaForm.valid == true}" mat-raised-button>INVIA</button>
+            <!-- ! se il button  NON E' ABILITATO inizialmente-->
+
+
+
+
+
+            <div class="domanda">
+                <a href="javascript:void(0)">Hai dimenticato la password?</a>
+
+                <!--! href="javascript:void(0)". È un modo per scrivere un link “vuoto” e molto spesso equivale a
+                <a href=”#”>, con la differenza che il # fa puntare il browser in alto nella pagina.
+                Infatti se ci troviamo in una pagina molto lunga vedremo che dopo il click su <a href=”#”> il browser punta in alto.
+                La sintassi void(0) invece non fa nulla e non produce alcun effetto. -->
+            </div>
+
+
+            <div class="descrizioneNetflix">
+                Entra nel modo di Netflix:film sempre nuovi da non perdere.Le serie tv piu attese
+            </div>
+            <div>
+                <a routerLink="/creaAccount"><button type="button" mat-raised-button>CREA UN NUOVO ACCOUNT</button></a>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+    <div *ngIf="isMessaggio == true">
+        <h2 *ngIf="miaEmail != undefined">
+            L'utente con Email: <em>{{miaEmail}}</em> si è loggato correttamente
+        </h2>
+    </div>
+</div>

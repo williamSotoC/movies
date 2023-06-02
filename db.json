@@ -1,0 +1,1386 @@
+{
+  "users": [
+    {
+      "email": "pippo@gmail.com",
+      "password": "$2a$10$evoZ333GqaYXLVA39FqeR.1mbKkAR3u6RK555qPYZWZcuTUVMk42a",
+      "nome": "pippo",
+      "id": 1
+    },
+    {
+      "email": "pippoo@gmail.com",
+      "password": "$2a$10$onwoaa1cCDFT6Z5.CVhHmuGc61uZc06U8GkzVixZ9Fc5ceBza2K7i",
+      "nome": "pippo",
+      "id": 2
+    },
+    {
+      "email": "william.fitnesss@gmail.com",
+      "password": "$2a$10$bVH.48j4.Vq0IpUnHCsZKeYFE13AP8eLnAJYLAcwYUnReJg7KVPJ.",
+      "nome": "william",
+      "id": 3
+    },
+    {
+      "email": "eeeee33@ee.e",
+      "password": "$2a$10$.Xlye60soiJMGCs1hZUgMuIscTzd1CAwaj6R.wyeI9fsc0G5X.OEy",
+      "nome": "camila",
+      "id": 4
+    },
+    {
+      "email": "eeee@ee.e",
+      "password": "$2a$10$LeQ0gFSwUdSjbNr714bb0e.9WIBv7PqJzAalpW8VuGEUYQPOZP9ae",
+      "nome": "camila",
+      "id": 5
+    },
+    {
+      "email": "eebrenda33@ee.e",
+      "password": "$2a$10$AqeqwVXW5V2hj5MTm7kDz.JhbTG1sftEYbnBUNzZstWLvWDxdAoKa",
+      "nome": "brenda",
+      "id": 6
+    },
+    {
+      "email": "eeeeeyyy33@ee.e",
+      "password": "$2a$10$B3E94gvYY424kcAyp0eCBeXYvZAkij3KOClYNfvmhvomNA0jVRit.",
+      "nome": "brendayyy",
+      "id": 7
+    },
+    {
+      "email": "iiiiie33@ee.e",
+      "password": "$2a$10$5adFiF2dNqDdF5fs8d4W/u/katWy.JmVEPqR/sqjjJhCM3rcCLyl.",
+      "nome": "iiii",
+      "id": 8
+    },
+    {
+      "email": "dasha@ee.e",
+      "password": "$2a$10$WeLuhk5hC09P7yccCTh.l.Aa58ur.rKmK6ra12ikbb48yOrZBAwk2",
+      "nome": "dasha",
+      "id": 9
+    },
+    {
+      "email": "carolina@ee.e",
+      "password": "$2a$10$3njdrNW5nqvbpMEpodhZm.qX7beZ2Y.h5RXmOjkBVPkb3zB/FN2Dy",
+      "nome": "carolina",
+      "id": 10
+    },
+    {
+      "email": "melani.fitnesss@gmail.com",
+      "password": "$2a$10$3sMu.hWRVkVPzAa4lGw17Ou.CQZN37/Q6lgw09plYSWBB4fAFze1K",
+      "nome": "melani",
+      "id": 11
+    },
+    {
+      "email": "alondra.fitnesss@gmail.com",
+      "password": "$2a$10$VoLVsvqLnzPpZTYv7TDbZO/9HqWKhEsR7T5IEOxqavzW4ckvTS2S.",
+      "nome": "alondra",
+      "id": 12
+    },
+    {
+      "email": "william.fitnedsss@d.d",
+      "password": "$2a$10$53.EssNA7ucTDZqCgd9cSuDqNDFDhI3VFAI6Tan0.ekFiRGNTkZvW",
+      "nome": "dddd",
+      "id": 13
+    },
+    {
+      "email": "fffff.fitnesss@gmail.com",
+      "password": "$2a$10$Res3AOoFmAkeAEQegjMGq.ZfqtXKHLgCS6DdL6vPGVjQwVaupulSS",
+      "nome": "willia",
+      "id": 14
+    },
+    {
+      "email": "camila.fitnesss@gmail.com",
+      "password": "$2a$10$Ni3fnCl.lNgqEBMW6S7zIOFLFqVEhfoQCiJxFPXOeo48PdasDDgwG",
+      "nome": "camila",
+      "id": 15
+    },
+    {
+      "email": "williama.fitnesss@gmail.com",
+      "password": "$2a$10$GNbxZqqb1WTqpMmvaqmWnOclonUY7dLAOC98mxSr2kTf7TtiwWVsq",
+      "nome": "wiliama",
+      "id": 16
+    },
+    {
+      "email": "williamt.fitnesss@gmail.com",
+      "password": "$2a$10$YTe3Y4FC3rn76kCb9tcR7u3aGCce6N0gwxmqXx5GQBJW8ws4VgKtW",
+      "nome": "williamt",
+      "id": 17
+    },
+    {
+      "email": "williamttt.fitnesss@gmail.com",
+      "password": "$2a$10$Mt07FeLLZmz82GcESEqJ8Oer7wPHu/FaxaG8H2hw5l0kKq4/eilHW",
+      "nome": "williamttttt",
+      "id": 18
+    },
+    {
+      "email": "williamrr.fitnesss@gmail.com",
+      "password": "$2a$10$c.EoJdTO7zjG9fzc7uWQUOMi.jTWeqeW44mHEWDhcmP2eEtWbFKmi",
+      "nome": "williamrr",
+      "id": 19
+    },
+    {
+      "email": "antonio.fitnesss@gmail.com",
+      "password": "$2a$10$fyRRkt3sHwaqeoVaHVpfquA5AzDptur.S.zr5yr2EKQsbXJfJr5Rq",
+      "nome": "antonio",
+      "id": 20
+    },
+    {
+      "email": "marco.fitnesss@gmail.com",
+      "password": "$2a$10$TM9iyaYPX27NQjSn0xNgXONCz08Fu/adq8rwKKQQhkfkA5/qnjGLa",
+      "nome": "marco",
+      "id": 21
+    },
+    {
+      "email": "daniele.fitnesss@gmail.com",
+      "password": "$2a$10$yQ4zy9L1.btgLNiYeprIP.H/Iw/kg0OPrPvInQSHQkrovNDWsEfkm",
+      "nome": "daniele",
+      "id": 22
+    },
+    {
+      "email": "marina.fitnesss@gmail.com",
+      "password": "$2a$10$4dpB3hkSDh5ypV07c6kR2.SvQrVZ4jY1GtH1uq1XS3EgWradh7R9i",
+      "nome": "marina",
+      "id": 23
+    }
+  ],
+  "posts": [],
+  "films-acquistati": [
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/4t0oBFrJyweYPt0hocW6RUa0b6H.jpg",
+        "genre_ids": [
+          28,
+          80,
+          53
+        ],
+        "id": 385687,
+        "original_language": "en",
+        "original_title": "Fast X",
+        "overview": "Nel corso di molte sfide, Dom Toretto e la sua famiglia hanno superato in astuzia, coraggio e abilità tutti i nemici che hanno incontrato sul loro cammino. Ora si trovano di fronte all'avversario più letale che abbiano mai affrontato: una minaccia terribile che emerge dalle ombre del passato, alimentata dalla vendetta, determinata a disperdere la famiglia e a distruggere per sempre tutto e tutti i suoi cari. In \"Fast Five\", Dom e la sua squadra hanno eliminato il famigerato boss della droga brasiliano Hernan Reyes. Quello che non sapevano è che il figlio Dante ha assistito a tutto questo e ha passato gli ultimi 12 anni a elaborare un piano per far pagare a Dom il prezzo più alto.  Il complotto di Dante spingerà la famiglia di Dom da Los Angeles alle catacombe di Roma, dal Brasile a Londra e dal Portogallo all'Antartide. Si stringeranno nuove alleanze e torneranno vecchi nemici. Ma tutto cambia quando Dom scopre che suo figlio di 8 anni è l'obiettivo finale della vendetta di Dante.",
+        "popularity": 4334.616,
+        "poster_path": "/1E5baAaEse26fej7uHcjOgEE2t2.jpg",
+        "release_date": "2023-05-17",
+        "title": "Fast X",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 449
+      },
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/aAgGrfBwna1nO4M2USxwFgK5O0t.jpg",
+        "genre_ids": [
+          53,
+          27
+        ],
+        "id": 713704,
+        "original_language": "en",
+        "original_title": "Evil Dead Rise",
+        "overview": "Una stanca Beth fa una visita tardiva a sua sorella maggiore Ellie, che sta crescendo tre figli da sola in un angusto appartamento di Los Angeles. La riunione delle sorelle è interrotta dalla scoperta di un libro misterioso nelle viscere dell’edificio di Ellie, che dà origine a demoni indemoniati e spinge Beth in una battaglia primordiale per la sopravvivenza mentre deve affrontare una versione da incubo della maternità.",
+        "popularity": 2301.35,
+        "poster_path": "/qktgDSamaIp8924F2suWcabzNkY.jpg",
+        "release_date": "2023-04-12",
+        "title": "La casa - Il risveglio del male",
+        "video": false,
+        "vote_average": 7.1,
+        "vote_count": 1292
+      },
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/eTvN54pd83TrSEOz6wbsXEJktCV.jpg",
+        "genre_ids": [
+          10752,
+          28,
+          53
+        ],
+        "id": 882569,
+        "original_language": "en",
+        "original_title": "Guy Ritchie's The Covenant",
+        "overview": "Il sergente John è al suo ultimo turno di servizio in Afghanistan ed è accompagnato dall'interprete locale Ahmed, che rischia la propria vita per portare in salvo il soldato, gravemente ferito, attraverso i chilometri e chilometri di un sentiero remoto ed estenuante.",
+        "popularity": 1184.626,
+        "poster_path": "/aX0H63vho7rZ9Rm3I567Zf00Z1t.jpg",
+        "release_date": "2023-04-19",
+        "title": "Guy Ritchie's The Covenant",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 334
+      },
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/94TIUEhuwv8PhdIADEvSuwPljS5.jpg",
+        "genre_ids": [
+          28,
+          10752
+        ],
+        "id": 840326,
+        "original_language": "fi",
+        "original_title": "Sisu",
+        "overview": "Nel profondo delle terre selvagge della Lapponia, Aatami Korpi è alla ricerca dell'oro, ma dopo essersi imbattuto in una pattuglia nazista, inizia un inseguimento mozzafiato e affamato di oro attraverso le terre selvagge e minate della Lapponia.",
+        "popularity": 2125.926,
+        "poster_path": "/uCAaaAQEDrTllYR4dtsEsfQa8We.jpg",
+        "release_date": "2023-01-27",
+        "title": "Sisu",
+        "video": false,
+        "vote_average": 7.5,
+        "vote_count": 410
+      },
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/pX8dcD8kCqFZ2bUX1xzZOJuvauQ.jpg",
+        "genre_ids": [
+          18,
+          9648,
+          10749
+        ],
+        "id": 254259,
+        "original_language": "en",
+        "original_title": "So Well Remembered",
+        "overview": "",
+        "popularity": 1.4,
+        "poster_path": "/9ijfEv3QBA5CYwhCa5bLYJ6qQ7d.jpg",
+        "release_date": "1947-07-09",
+        "title": "So Well Remembered",
+        "video": false,
+        "vote_average": 4.8,
+        "vote_count": 10
+      },
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 266844,
+        "original_language": "fr",
+        "original_title": "Équateur",
+        "overview": "",
+        "popularity": 0.852,
+        "poster_path": "/s9z9UWmaEA20CnjQISgZ47rRnhV.jpg",
+        "release_date": "1983-08-17",
+        "title": "Équateur",
+        "video": false,
+        "vote_average": 3.8,
+        "vote_count": 5
+      },
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/3UwbY5fCiRyWfoUp83sTENV37AQ.jpg",
+        "genre_ids": [
+          878
+        ],
+        "id": 461218,
+        "original_language": "en",
+        "original_title": "William",
+        "overview": "Two cutting-edge scientists give 'birth' to a Neanderthal—the first to walk the earth for some 35,000 years—in order to attempt to answer these questions. Part 'normal' child, part science experiment, William’s 'parents' struggle with the best way to raise him. As William grows toward adulthood, he is educated in the human experiences of love and intimacy. But his primitive impulses begin to emerge the more he tries to conform to human expectations, leading to tragic consequences for him and his loved ones.",
+        "popularity": 2.765,
+        "poster_path": "/yEHCfZHVstvFExr067N22AWjfQk.jpg",
+        "release_date": "2019-04-12",
+        "title": "William",
+        "video": false,
+        "vote_average": 6.375,
+        "vote_count": 8
+      },
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/hJoMSAltRx5xvlAXvKyDdugjucJ.jpg",
+        "genre_ids": [
+          12,
+          10751,
+          14,
+          10749
+        ],
+        "id": 447277,
+        "original_language": "en",
+        "original_title": "The Little Mermaid",
+        "overview": "La Sirenetta racconta l'amata storia di Ariel, una bellissima e vivace giovane sirena in cerca di avventura. Ariel, la figlia più giovane di Re Tritone e la più ribelle, desidera scoprire di più sul mondo al di là del mare e, mentre esplora la superficie, si innamora dell'affascinante principe Eric. Alle sirene è vietato interagire con gli umani ma Ariel deve seguire il suo cuore e stringe un patto con la malvagia strega del mare, Ursula, che le offre la possibilità di sperimentare la vita sulla terraferma, mettendo però in pericolo la sua vita e la corona di suo padre.",
+        "popularity": 2118.742,
+        "poster_path": "/bceSxsNsgU8JbPjerAtGPmJJyFt.jpg",
+        "release_date": "2023-05-18",
+        "title": "La sirenetta",
+        "video": false,
+        "vote_average": 5.8,
+        "vote_count": 182
+      },
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/suw8eyL3YwE4wfzPQ0cLR02k0Gh.jpg",
+        "genre_ids": [
+          878,
+          12,
+          28
+        ],
+        "id": 76600,
+        "original_language": "en",
+        "original_title": "Avatar: The Way of Water",
+        "overview": "Jake vive felicemente la sua vita insieme a Neytiri ma Pandora nasconde ancora numerosi misteri. Quando una vecchia, familiare minaccia torna ad affacciarsi per terminare quel che era stato iniziato un tempo, Jake dovrà nuovamente collaborare con l'esercito dei Na'vi per proteggere il loro incredibile pianeta. In veste di patriarca si ritroverà a dover combattere una dura guerra contro gli umani. Jake e Neytiri saranno pertanto costretti a lasciare la loro casa ed esplorare varie regioni di Pandora...",
+        "popularity": 1283.535,
+        "poster_path": "/kyJ7Ch5q5iDhxIjoupixTtqHObe.jpg",
+        "release_date": "2022-12-14",
+        "title": "Avatar - La via dell'acqua",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 8178
+      },
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          37,
+          12
+        ],
+        "id": 410698,
+        "original_language": "es",
+        "original_title": "La venganza del Zorro",
+        "overview": "Don Jose disguises himself as Zorro, the masked freedom fighter, who tries to protect his people from the wrath of an evil military officer who is using his position to his own advantage.",
+        "popularity": 0.901,
+        "poster_path": "/7RExcwlZt38lnhUbBZXKg4O8MZX.jpg",
+        "release_date": "1962-06-25",
+        "title": "Zorro the Avenger",
+        "video": false,
+        "vote_average": 6,
+        "vote_count": 2
+      },
+      "id": 13
+    },
+    {
+      "userId": 21,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+        "genre_ids": [
+          28,
+          53,
+          80
+        ],
+        "id": 603692,
+        "original_language": "en",
+        "original_title": "John Wick: Chapter 4",
+        "overview": "John Wick trova una via per sconfiggere la Gran Tavola. Ma prima di guadagnare la libertà, Wick deve affrontare un nuovo nemico che ha potenti alleanze in tutto il mondo e ha mezzi tali da tramutare vecchi amici in nuovi nemici.",
+        "popularity": 9303.134,
+        "poster_path": "/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
+        "release_date": "2023-03-22",
+        "title": "John Wick 4",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2044
+      },
+      "id": 15
+    },
+    {
+      "userId": 21,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/nLBRD7UPR6GjmWQp6ASAfCTaWKX.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          14,
+          35
+        ],
+        "id": 502356,
+        "original_language": "en",
+        "original_title": "The Super Mario Bros. Movie",
+        "overview": "Un idraulico di Brooklyn di nome Mario viaggia attraverso il Regno dei Funghi con una principessa di nome Peach e un fungo antropomorfo di nome Toad per trovare il fratello di Mario, Luigi, e salvare il mondo da uno spietato mostro sputafuoco di nome Bowser.",
+        "popularity": 6344.538,
+        "poster_path": "/A1H2lnpur1IofI0ufcImcAnSytP.jpg",
+        "release_date": "2023-04-05",
+        "title": "Super Mario Bros. Il film",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 3578
+      },
+      "id": 17
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/bblKpucB0XbyQBmfXsaRN985Rgh.jpg",
+        "genre_ids": [
+          18
+        ],
+        "id": 458220,
+        "original_language": "en",
+        "original_title": "Palmer",
+        "overview": "Dopo 12 anni in carcere, l’ex stella del football Eddie Palmer cerca di rimettersi in piedi e stringe un’improbabile amicizia con Sam, un ragazzo con alle spalle una famiglia travagliata. Ma il passato di Eddie riaffiora, minacciando di rovinare la sua nuova vita.",
+        "popularity": 357.055,
+        "poster_path": "/xSDdRAjxKAGi8fUBLOqSrBhJmF0.jpg",
+        "release_date": "2021-01-29",
+        "title": "Palmer",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 989
+      },
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [
+          28,
+          18
+        ],
+        "id": 254354,
+        "original_language": "zh",
+        "original_title": "雍正與年羹堯",
+        "overview": "",
+        "popularity": 0.6,
+        "poster_path": "/gWSQlKA9OKF98onp3LNdilPg4lS.jpg",
+        "release_date": "1980-09-24",
+        "title": "雍正與年羹堯",
+        "video": false,
+        "vote_average": 5.3,
+        "vote_count": 3
+      },
+      "id": 19
+    },
+    {
+      "userId": 22,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+        "genre_ids": [
+          28,
+          53,
+          80
+        ],
+        "id": 603692,
+        "original_language": "en",
+        "original_title": "John Wick: Chapter 4",
+        "overview": "John Wick trova una via per sconfiggere la Gran Tavola. Ma prima di guadagnare la libertà, Wick deve affrontare un nuovo nemico che ha potenti alleanze in tutto il mondo e ha mezzi tali da tramutare vecchi amici in nuovi nemici.",
+        "popularity": 9303.134,
+        "poster_path": "/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
+        "release_date": "2023-03-22",
+        "title": "John Wick 4",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2044
+      },
+      "id": 21
+    },
+    {
+      "userId": 22,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/u4SDPknBWEEOCzPJvL0NwApkQSR.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          14,
+          35
+        ],
+        "id": 502356,
+        "original_language": "en",
+        "original_title": "The Super Mario Bros. Movie",
+        "overview": "Un idraulico di Brooklyn di nome Mario viaggia attraverso il Regno dei Funghi con una principessa di nome Peach e un fungo antropomorfo di nome Toad per trovare il fratello di Mario, Luigi, e salvare il mondo da uno spietato mostro sputafuoco di nome Bowser.",
+        "popularity": 6344.538,
+        "poster_path": "/A1H2lnpur1IofI0ufcImcAnSytP.jpg",
+        "release_date": "2023-04-05",
+        "title": "Super Mario Bros. Il film",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 3578
+      },
+      "id": 22
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/nDxJJyA5giRhXx96q1sWbOUjMBI.jpg",
+        "genre_ids": [
+          35,
+          28,
+          14
+        ],
+        "id": 594767,
+        "original_language": "en",
+        "original_title": "Shazam! Fury of the Gods",
+        "overview": "Quando le Figlie di Atlante, un vendicativo trio di antiche divinità, arrivano sulla Terra alla ricerca della magia che è stata loro rubata molto tempo fa, la [Shazamily] è spinta in una battaglia per i loro superpoteri, le loro vite e il destino del loro mondo",
+        "popularity": 1219.366,
+        "poster_path": "/bqkClyt9iJcbmZXouCgUrIna91W.jpg",
+        "release_date": "2023-03-15",
+        "title": "Shazam! Furia degli dei",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 1751
+      },
+      "id": 23
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/wUwFMnbFxuDfcRSGGT7QQIGDRrH.jpg",
+        "genre_ids": [
+          27
+        ],
+        "id": 785759,
+        "original_language": "en",
+        "original_title": "Two Witches",
+        "overview": "",
+        "popularity": 464.524,
+        "poster_path": "/uL9fFTdNmUUlKIJfHJclN5X3bxH.jpg",
+        "release_date": "2023-03-02",
+        "title": "Two Witches",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 58
+      },
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          12,
+          35
+        ],
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate.  Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "popularity": 981.8,
+        "poster_path": "/lVlwOuF9TQeYJ8oY7cpehvEaE4k.jpg",
+        "release_date": "2022-12-07",
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 5607
+      },
+      "id": 25
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/kyeqDT2cFhTmwlvtuQY3n2W6Vf3.jpg",
+        "genre_ids": [
+          28,
+          53,
+          27
+        ],
+        "id": 799379,
+        "original_language": "ko",
+        "original_title": "늑대사냥",
+        "overview": "Mentre sono sotto stretta sorveglianza armata, i pericolosi detenuti a bordo di una nave da carico si uniscono in un tentativo di fuga coordinato che presto degenera in una sanguinosa rivolta totale. Ma mentre i fuggitivi continuano la loro brutale campagna di terrore, scoprono presto che nemmeno il più feroce tra loro è al sicuro dall'orrore che hanno inconsapevolmente scatenato dall'oscurità sottocoperta.",
+        "popularity": 524.285,
+        "poster_path": "/op2y1gvqKhAh4yAPLwc4PlX3XRv.jpg",
+        "release_date": "2022-09-21",
+        "title": "Project Wolf Hunting",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 136
+      },
+      "id": 26
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg",
+        "genre_ids": [
+          28,
+          35,
+          10749
+        ],
+        "id": 758009,
+        "original_language": "en",
+        "original_title": "Shotgun Wedding",
+        "overview": "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) riuniscono le loro famiglie, amorevoli ma sempre pronte ad esprimere giudizi, per il non plus ultra dei matrimoni, proprio quando la coppia inizia ad avere dei ripensamenti. E come se questa non fosse già una minaccia sufficiente, improvvisamente le vite di tutti sono in pericolo quando gli invitati vengono presi in ostaggio. \"Finchè morte non ci separi\" assume un significato tutto nuovo in questa avventura comica e adrenalinica in cui Darcy e Tom dovranno salvare i loro cari - sempre che non si uccidano prima a vicenda.",
+        "popularity": 332.084,
+        "poster_path": "/3og5Nz4xKy5HvlGhltmwass52x2.jpg",
+        "release_date": "2022-12-28",
+        "title": "Un matrimonio esplosivo",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 832
+      },
+      "id": 27
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          12,
+          35
+        ],
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate.  Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "popularity": 981.8,
+        "poster_path": "/lVlwOuF9TQeYJ8oY7cpehvEaE4k.jpg",
+        "release_date": "2022-12-07",
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 5607
+      },
+      "id": 28
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/9j0V8Fw5u4cv9cESUXUmTGmpXU5.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          35
+        ],
+        "id": 1058732,
+        "original_language": "en",
+        "original_title": "The Simpsons Meet the Bocellis in Feliz Navidad",
+        "overview": "A Natale Homer sorprende Marge con un regalo eccezionale: una performance indimenticabile della superstar dell'opera Andrea Bocelli e dei suoi figli, Matteo e Virginia.",
+        "popularity": 173.662,
+        "poster_path": "/pcX9SNo0jEiqAQegHjhpebwK7w5.jpg",
+        "release_date": "2022-12-15",
+        "title": "Feliz Navidad - I Simpson incontrano i Bocelli",
+        "video": false,
+        "vote_average": 5.3,
+        "vote_count": 40
+      },
+      "id": 29
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/1PRWW60yQparK1I8Soyy9Evf7Dv.jpg",
+        "genre_ids": [
+          16,
+          35,
+          10751,
+          18,
+          12
+        ],
+        "id": 869626,
+        "original_language": "en",
+        "original_title": "Marcel the Shell with Shoes On",
+        "overview": "Marcel è un'adorabile conchiglia alta poco più di due centimetri, con un grande occhio e scarpe da ginnastica. Vive un'esistenza allegra con la nonna Connie e il loro animale domestico, Alan. Un tempo, facevano parte di un'affollata comunità di molluschi; ora, sono gli unici sopravvissuti a una misteriosa tragedia. Quando Marcel e Connie vengono scoperti da un regista di documentari, diventano i protagonisti di un cortometraggio. Marcel diventa in breve tempo una vera e propria star e si riaccende in lui la speranza di ritrovare la famiglia perduta grazie al mondo della rete digitale.",
+        "popularity": 364.649,
+        "poster_path": "/vpC5ONvEAXvq6aCdtUmtvOiyUjj.jpg",
+        "release_date": "2022-06-24",
+        "title": "Marcel the Shell",
+        "video": false,
+        "vote_average": 7.7,
+        "vote_count": 277
+      },
+      "id": 30
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 251199,
+        "original_language": "en",
+        "original_title": "Camila",
+        "overview": "Camila is a Mexican soft rock group formed in 2005. They gained success in their home country and all over Latin America upon the release of their debut album Todo Cambió.",
+        "popularity": 0.6,
+        "poster_path": null,
+        "release_date": "",
+        "title": "Camila",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "id": 31
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/9oEbhx52BOgHvnOYisrVROfwt94.jpg",
+        "genre_ids": [
+          27
+        ],
+        "id": 702621,
+        "original_language": "en",
+        "original_title": "Lullaby",
+        "overview": "Il nuovo film di John R. Leonetti",
+        "popularity": 734.001,
+        "poster_path": "/vmE4gZ9vy8ammgS2UsEh0Z1OCia.jpg",
+        "release_date": "2022-12-16",
+        "title": "Lullaby",
+        "video": false,
+        "vote_average": 5.7,
+        "vote_count": 28
+      },
+      "id": 32
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "id": 24428,
+        "original_language": "en",
+        "original_title": "The Avengers",
+        "overview": "I supereroi più famosi si riuniscono in una squadra di personaggi Marvel leggendari come Iron Man, l'incredibile Hulk, Thor, Captain America, Occhio di Falco e Vedova Nera. Quando la comparsa di un nemico inatteso minaccia la tranquillità e la sicurezza del mondo, Nick Fury, direttore dell'agenzia internazionale per il mantenimento della pace conosciuta come S.H.I.E.L.D., si trova ad aver bisogno di una squadra che salvi il pianeta dall'orlo del disastro. Inizia così, da un capo all'altro della terra, un audace lavoro di reclutamento. Dopo aver riunito la squadra, Nick Fury e il suo fidato assistente, l'Agente Coulson, dovranno convincere i supereroi a convivere e lavorare insieme, utilizzando i loro incredibili poteri contro il pericoloso Loki che è riuscito ad accedere al Tesseract e ai suoi poteri illimitati.",
+        "popularity": 116.588,
+        "poster_path": "/mJwEvI0k75o1uRkd57ZbERazxzf.jpg",
+        "release_date": "2012-04-25",
+        "title": "The Avengers",
+        "video": false,
+        "vote_average": 7.707,
+        "vote_count": 28635
+      },
+      "id": 33
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": null,
+        "genre_ids": [],
+        "id": 251199,
+        "original_language": "en",
+        "original_title": "Camila",
+        "overview": "Camila is a Mexican soft rock group formed in 2005. They gained success in their home country and all over Latin America upon the release of their debut album Todo Cambió.",
+        "popularity": 0.6,
+        "poster_path": null,
+        "release_date": "",
+        "title": "Camila",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "id": 34
+    },
+    {
+      "userId": 23,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          12,
+          35
+        ],
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate.  Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "popularity": 747.481,
+        "poster_path": "/lVlwOuF9TQeYJ8oY7cpehvEaE4k.jpg",
+        "release_date": "2022-12-07",
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 5617
+      },
+      "id": 35
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/dqTOcdf1ILtakesKUhBOutaIee3.jpg",
+        "genre_ids": [
+          16,
+          10749,
+          878
+        ],
+        "id": 874743,
+        "original_language": "ja",
+        "original_title": "僕が愛したすべての君へ",
+        "overview": "Koyomi Takasaki è un ragazzo che vive con sua madre dopo il divorzio dei suoi genitori. Nella sua nuova scuola di preparazione al college tenta di fare amicizia con gli altri, ma la sua timidezza e la pesante competizione studentesca gli impediscono di socializzare. Un giorno, la sua compagna di classe Kazune Takigawa gli si avvicina e gli dice che in realtà viene dalla World Line 85, dove lei e Koyomi sono amanti",
+        "popularity": 169.139,
+        "poster_path": "/zQqUvA1rxSceehwoChsKB780plX.jpg",
+        "release_date": "2022-10-07",
+        "title": "Boku ga Aishita Subete no Kimi e",
+        "video": false,
+        "vote_average": 6.7,
+        "vote_count": 10
+      },
+      "id": 36
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+        "genre_ids": [
+          28,
+          53,
+          80
+        ],
+        "id": 603692,
+        "original_language": "en",
+        "original_title": "John Wick: Chapter 4",
+        "overview": "John Wick trova una via per sconfiggere la Gran Tavola. Ma prima di guadagnare la libertà, Wick deve affrontare un nuovo nemico che ha potenti alleanze in tutto il mondo e ha mezzi tali da tramutare vecchi amici in nuovi nemici.",
+        "popularity": 8361.829,
+        "poster_path": "/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
+        "release_date": "2023-03-22",
+        "title": "John Wick 4",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2263
+      },
+      "id": 37
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "id": 580489,
+        "original_language": "en",
+        "original_title": "Venom: Let There Be Carnage",
+        "overview": "Alla ricerca del suo prossimo scoop, il giornalista Eddie Brock ottiene un'intervista esclusiva con un assassino incarcerato nel braccio della morte, Cletus Kasady, che scopre il segreto di Eddie e diventa l'ospite di Carnage, un simbionte minaccioso e terrificante. Eddie e Venom devono andare oltre il loro rapporto controverso e collaborare per sconfiggere Carnage.",
+        "popularity": 114.565,
+        "poster_path": "/sSdRI34rbqXj21SruV52AUoXRkE.jpg",
+        "release_date": "2021-09-30",
+        "title": "Venom - La furia di Carnage",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 8817
+      },
+      "id": 38
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/p2toj2VDTihQrkEcWifhHADjhdX.jpg",
+        "genre_ids": [
+          28,
+          12,
+          878,
+          14
+        ],
+        "id": 9070,
+        "original_language": "en",
+        "original_title": "Mighty Morphin Power Rangers: The Movie",
+        "overview": "I Power Rangers saltano giù dal portellone di un aereo, aprono il paracadute e colpiscono in pieno l’obiettivo. I mutanti dai poteri eccezionali sono riconoscibili per via dei colori: Rocky è rosso, Adam nero, Tommy bianco, Billy blu e la vezzosa Kimberly tutta rosa. La serie televisiva che negli Stati Uniti fu campione di audience fin dall’esordio nel 1993, era stata già sostituita nel cuore dei piccoli telespettatori da più recenti personaggi, e l’aver affidato l’azione ad attori in carne e ossa non basta a riportare il successo. I bambini faticano a ritrovare le loro chiassose avventure, gli effetti speciali non hanno la stessa vivacità che sfoggiavano nei cartoni animati.",
+        "popularity": 17.398,
+        "poster_path": "/viDy0p1OAJ8mguFnQwWDzZYZcSO.jpg",
+        "release_date": "1995-06-30",
+        "title": "Power Rangers - Il film",
+        "video": false,
+        "vote_average": 5.815,
+        "vote_count": 617
+      },
+      "id": 39
+    }
+  ],
+  "films-preferiti": [
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/9qcXIX4Sjv6oEKLvaLYJTabLqR.jpg",
+        "genre_ids": [
+          27,
+          53
+        ],
+        "id": 1020696,
+        "original_language": "en",
+        "original_title": "Play Dead",
+        "overview": "",
+        "popularity": 507.798,
+        "poster_path": "/h5bwT8fuE6VIaOslRezwDiL2DxK.jpg",
+        "release_date": "2022-12-09",
+        "title": "Play Dead",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 50
+      },
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/A077VsMIBBXNvlI5mohGnSiIrfI.jpg",
+        "genre_ids": [
+          878,
+          27,
+          35
+        ],
+        "id": 536554,
+        "original_language": "en",
+        "original_title": "M3GAN",
+        "overview": "È più di una semplice bambola. Fa parte della famiglia. M3GAN è una meraviglia di intelligenza artificiale, una bambola a grandezza naturale programmata per essere la più grande compagna dei bambini e la più grande alleata dei genitori. Progettata da Gemma, brillante robotica di un'azienda di giocattoli, M3GAN è in grado di ascoltare, guardare e imparare, diventando amica e insegnante, compagna di giochi e protettrice del bambino a cui è legata. Quando Gemma diventa improvvisamente la tutrice della nipote orfana di 8 anni, Cady, è insicura e impreparata a diventare genitore. Sottoposta a forti pressioni sul lavoro, Gemma decide di abbinare il suo prototipo M3GAN con Cady nel tentativo di risolvere entrambi i problemi: una decisione che avrà conseguenze inimmaginabili.",
+        "popularity": 352.421,
+        "poster_path": "/3ulJHRYvgOnvjdpPFr4xB0R2bzW.jpg",
+        "release_date": "2022-12-28",
+        "title": "M3GAN",
+        "video": false,
+        "vote_average": 7.3,
+        "vote_count": 2652
+      },
+      "id": 5
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/kyeqDT2cFhTmwlvtuQY3n2W6Vf3.jpg",
+        "genre_ids": [
+          28,
+          53,
+          27
+        ],
+        "id": 799379,
+        "original_language": "ko",
+        "original_title": "늑대사냥",
+        "overview": "Mentre sono sotto stretta sorveglianza armata, i pericolosi detenuti a bordo di una nave da carico si uniscono in un tentativo di fuga coordinato che presto degenera in una sanguinosa rivolta totale. Ma mentre i fuggitivi continuano la loro brutale campagna di terrore, scoprono presto che nemmeno il più feroce tra loro è al sicuro dall'orrore che hanno inconsapevolmente scatenato dall'oscurità sottocoperta.",
+        "popularity": 374.489,
+        "poster_path": "/op2y1gvqKhAh4yAPLwc4PlX3XRv.jpg",
+        "release_date": "2022-09-21",
+        "title": "Project Wolf Hunting",
+        "video": false,
+        "vote_average": 6.5,
+        "vote_count": 135
+      },
+      "id": 6
+    },
+    {
+      "userId": 21,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/nITzFbM1JS7WEvFjjGL0kCb2yPr.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          12
+        ],
+        "id": 1045944,
+        "original_language": "en",
+        "original_title": "The Boss Baby: Christmas Bonus",
+        "overview": "La vigilia di Natale prende una piega imprevista quando Baby Boss si scambia accidentalmente con uno degli elfi di Babbo Natale e rimane bloccato al Polo Nord.",
+        "popularity": 167.932,
+        "poster_path": "/3G5pfldyZPmOnDZrG7iCgVMoYHb.jpg",
+        "release_date": "2022-12-06",
+        "title": "Baby Boss - Un Natale speciale",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 236
+      },
+      "id": 7
+    },
+    {
+      "userId": 22,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          12,
+          35
+        ],
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate.  Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "popularity": 825.927,
+        "poster_path": "/lVlwOuF9TQeYJ8oY7cpehvEaE4k.jpg",
+        "release_date": "2022-12-07",
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 5595
+      },
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/9oEbhx52BOgHvnOYisrVROfwt94.jpg",
+        "genre_ids": [
+          27
+        ],
+        "id": 702621,
+        "original_language": "en",
+        "original_title": "Lullaby",
+        "overview": "Il nuovo film di John R. Leonetti",
+        "popularity": 528.626,
+        "poster_path": "/vmE4gZ9vy8ammgS2UsEh0Z1OCia.jpg",
+        "release_date": "2022-12-16",
+        "title": "Lullaby",
+        "video": false,
+        "vote_average": 5.7,
+        "vote_count": 28
+      },
+      "id": 9
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/vIgyYkXkg6NC2whRbYjBD7eb3Er.jpg",
+        "genre_ids": [
+          878,
+          28,
+          12
+        ],
+        "id": 580489,
+        "original_language": "en",
+        "original_title": "Venom: Let There Be Carnage",
+        "overview": "Alla ricerca del suo prossimo scoop, il giornalista Eddie Brock ottiene un'intervista esclusiva con un assassino incarcerato nel braccio della morte, Cletus Kasady, che scopre il segreto di Eddie e diventa l'ospite di Carnage, un simbionte minaccioso e terrificante. Eddie e Venom devono andare oltre il loro rapporto controverso e collaborare per sconfiggere Carnage.",
+        "popularity": 140.349,
+        "poster_path": "/sSdRI34rbqXj21SruV52AUoXRkE.jpg",
+        "release_date": "2021-09-30",
+        "title": "Venom - La furia di Carnage",
+        "video": false,
+        "vote_average": 6.9,
+        "vote_count": 8807
+      },
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/h8gHn0OzBoaefsYseUByqsmEDMY.jpg",
+        "genre_ids": [
+          28,
+          53,
+          80
+        ],
+        "id": 603692,
+        "original_language": "en",
+        "original_title": "John Wick: Chapter 4",
+        "overview": "John Wick trova una via per sconfiggere la Gran Tavola. Ma prima di guadagnare la libertà, Wick deve affrontare un nuovo nemico che ha potenti alleanze in tutto il mondo e ha mezzi tali da tramutare vecchi amici in nuovi nemici.",
+        "popularity": 10987.655,
+        "poster_path": "/dWYBAQwinApRXFWZQcA31ddbaXW.jpg",
+        "release_date": "2023-03-22",
+        "title": "John Wick 4",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 2140
+      },
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+        "genre_ids": [
+          12,
+          28,
+          878
+        ],
+        "id": 299536,
+        "original_language": "en",
+        "original_title": "Avengers: Infinity War",
+        "overview": "Dalla nascita dell'universo, sei gemme elementari rappresentano i vari aspetti fondamentali del cosmo e chi le possedesse tutte raggiungerebbe l'onnipotenza. È questo l'obiettivo di Thanos, il titano pazzo che ritiene se stesso come un correttivo alla sovrappopolazione universale e pensa di essere una misura necessaria e giusta, persino benevola, mentre agli altri il suo operato appare, correttamente, come una serie di genocidi. Gli Avengers e i Guardiani della Galassia dovranno cercare di fermarlo, ma come se non bastasse la sua inarrestabile potenza ci sono dalla sua armate aliene e quattro letali \"figli\", ognuno deciso a consegnargli le gemme dell'infinito.",
+        "popularity": 208.674,
+        "poster_path": "/A404e70ZnvWFoWA517sySQXe8X6.jpg",
+        "release_date": "2018-04-25",
+        "title": "Avengers - Infinity War",
+        "video": false,
+        "vote_average": 8.261,
+        "vote_count": 26935
+      },
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/zAvkNPI3AIwVgeePJ7bx4PIXsMg.jpg",
+        "genre_ids": [
+          10751,
+          16,
+          35
+        ],
+        "id": 432266,
+        "original_language": "en",
+        "original_title": "Camp Lazlo: Where's Lazlo?",
+        "overview": "",
+        "popularity": 1.856,
+        "poster_path": "/fYOEqF6mdcM9CitHAchAPE4htqL.jpg",
+        "release_date": "2007-02-18",
+        "title": "Camp Lazlo: Where's Lazlo?",
+        "video": false,
+        "vote_average": 5.8,
+        "vote_count": 2
+      },
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/tHF5OIcguut0Y83BXzqHtGdJOAf.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 7974,
+        "original_language": "fi",
+        "original_title": "Tulitikkutehtaan tyttö",
+        "overview": "Iris, lavora in una fabbrica di fiammiferi, è timida e taciturna. La monotonia della sua vita sarà spezzata dall'incontro con un uomo di cui si innamora, ma una gravidanza di troppo farà precipitare le cose.",
+        "popularity": 7.972,
+        "poster_path": "/s3JX268P3OYIMVoDq7iyCeqhKew.jpg",
+        "release_date": "1990-01-12",
+        "title": "La fiammiferaia",
+        "video": false,
+        "vote_average": 7.321,
+        "vote_count": 173
+      },
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/zGoZB4CboMzY1z4G3nU6BWnMDB2.jpg",
+        "genre_ids": [
+          28,
+          35,
+          10749
+        ],
+        "id": 758009,
+        "original_language": "en",
+        "original_title": "Shotgun Wedding",
+        "overview": "Darcy (Jennifer Lopez) e Tom (Josh Duhamel) riuniscono le loro famiglie, amorevoli ma sempre pronte ad esprimere giudizi, per il non plus ultra dei matrimoni, proprio quando la coppia inizia ad avere dei ripensamenti. E come se questa non fosse già una minaccia sufficiente, improvvisamente le vite di tutti sono in pericolo quando gli invitati vengono presi in ostaggio. \"Finchè morte non ci separi\" assume un significato tutto nuovo in questa avventura comica e adrenalinica in cui Darcy e Tom dovranno salvare i loro cari - sempre che non si uccidano prima a vicenda.",
+        "popularity": 332.084,
+        "poster_path": "/3og5Nz4xKy5HvlGhltmwass52x2.jpg",
+        "release_date": "2022-12-28",
+        "title": "Un matrimonio esplosivo",
+        "video": false,
+        "vote_average": 6.4,
+        "vote_count": 832
+      },
+      "id": 15
+    },
+    {
+      "userId": 20,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/1r42uwYTbX7aOWxtS1qPCAdOBQJ.jpg",
+        "genre_ids": [
+          16,
+          878,
+          28
+        ],
+        "id": 257346,
+        "original_language": "ja",
+        "original_title": "アベンジャーズ コンフィデンシャル：ブラック・ウィドウ ＆ パニッシャー",
+        "overview": "Dopo aver interferito con una missione top secret, Punisher viene preso in custodia dall'agente dello SHIELD e membro dei Vendicatori Black Widow. Agli ordini del direttore Nick Fury, Punisher e Black Widow sono inviati in una missione per fermare Leviathan, un'organizzazione terroristica globale che prevede di vendere al miglior offerente tecnologia rubata allo SHIELD. Ora il vigilante e la spia devono lavorare insieme per evitare che questa tecnologia finisca nelle mani sbagliate. Il destino del mondo e dei Vendicatori è in bilico.",
+        "popularity": 29.872,
+        "poster_path": "/ft98NEXz5r9BJaSJLyxOPfsfScz.jpg",
+        "release_date": "2014-04-19",
+        "title": "Avengers Confidential - La Vedova Nera & Punisher",
+        "video": false,
+        "vote_average": 6.295,
+        "vote_count": 210
+      },
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/yd9fYKqbsIXzyATqXKvsTxjEqEb.jpg",
+        "genre_ids": [
+          18,
+          878
+        ],
+        "id": 776490,
+        "original_language": "pt",
+        "original_title": "A Nuvem Rosa",
+        "overview": "",
+        "popularity": 2.577,
+        "poster_path": "/cMebkU27UYVoPg1FA12uHp6ilkM.jpg",
+        "release_date": "2021-04-01",
+        "title": "The Pink Cloud",
+        "video": false,
+        "vote_average": 5.977,
+        "vote_count": 22
+      },
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+        "genre_ids": [
+          28,
+          12,
+          878
+        ],
+        "id": 634649,
+        "original_language": "en",
+        "original_title": "Spider-Man: No Way Home",
+        "overview": "In seguito agli eventi di Spider-Man: Far from Home, la vita di Peter Parker viene stravolta dopo che Mysterio rivela al mondo la sua identità. Peter chiede aiuto a Stephen Strange affinché usi la magia per far scordare a tutti la sua identità. Ma l'incantesimo non va come previsto e Peter si ritrova a dover affrontare nemici da altri universi e a scoprire cosa significa davvero essere Spider-Man.",
+        "popularity": 284.842,
+        "poster_path": "/xLnZ0DB06H0MuGXcF0uhJxr6b8y.jpg",
+        "release_date": "2021-12-15",
+        "title": "Spider-Man: No Way Home",
+        "video": false,
+        "vote_average": 8,
+        "vote_count": 17431
+      },
+      "id": 21
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/e20kROlZYqo2OAewVgdoTn5bNef.jpg",
+        "genre_ids": [
+          18,
+          35
+        ],
+        "id": 18387,
+        "original_language": "en",
+        "original_title": "Big Wednesday",
+        "overview": "La voce narrante di Fly, un giovane surfista, introduce l'ambiente in cui tre amici, Matt Johnson, Jack Barlowe e Leroy Spaccatutto Smith vivono in modo spensierato la loro gioventù praticando il surf sulle spiagge della California; i tre sono molto diversi tra loro: Leroy è chiassoso e noncurante, Jack riflessivo ed educato, mentre Matt vive con inquietudine il suo passaggio dalla spensieratezza alla maturità ma nonostante questo accetta con entusiasmo la gravidanza della fidanzata Peggy Gordon, che lo segue e gli resterà costantemente accanto anche se non sempre condividerà le sue scelte, spinta dall'amore e comprendendo la sua fragile natura. Tutti sono accumunati, oltre che dalla passione per lo sport, dall'affetto e dal rispetto per Bear, un esperto surfista ..",
+        "popularity": 11.491,
+        "poster_path": "/rtkBSMVmibZw3OKxsPOfYyQLuBO.jpg",
+        "release_date": "1978-05-26",
+        "title": "Un mercoledì da leoni",
+        "video": false,
+        "vote_average": 6.904,
+        "vote_count": 156
+      },
+      "id": 22
+    },
+    {
+      "userId": 23,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          14,
+          12,
+          35
+        ],
+        "id": 315162,
+        "original_language": "en",
+        "original_title": "Puss in Boots: The Last Wish",
+        "overview": "Il Gatto con gli Stivali scopre che la sua passione per l'avventura è stata pagata a caro prezzo: ben otto delle sue nove vite sono andate bruciate.  Dovrà così intraprendere una nuova epica avventura alla ricerca del mitico Ultimo Desiderio, che gli permetterà di recuperare le sue nove vite.",
+        "popularity": 747.481,
+        "poster_path": "/lVlwOuF9TQeYJ8oY7cpehvEaE4k.jpg",
+        "release_date": "2022-12-07",
+        "title": "Il gatto con gli stivali 2 - L'ultimo desiderio",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 5617
+      },
+      "id": 23
+    },
+    {
+      "userId": 23,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/2klQ1z1fcHGgQPevbEQdkCnzyuS.jpg",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          14,
+          35
+        ],
+        "id": 502356,
+        "original_language": "en",
+        "original_title": "The Super Mario Bros. Movie",
+        "overview": "Un idraulico di Brooklyn di nome Mario viaggia attraverso il Regno dei Funghi con una principessa di nome Peach e un fungo antropomorfo di nome Toad per trovare il fratello di Mario, Luigi, e salvare il mondo da uno spietato mostro sputafuoco di nome Bowser.",
+        "popularity": 5236.756,
+        "poster_path": "/A1H2lnpur1IofI0ufcImcAnSytP.jpg",
+        "release_date": "2023-04-05",
+        "title": "Super Mario Bros. Il film",
+        "video": false,
+        "vote_average": 7.8,
+        "vote_count": 3778
+      },
+      "id": 24
+    },
+    {
+      "userId": 3,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/4KpNHvQIjyg1YFovRAoUXoFrGnR.jpg",
+        "genre_ids": [
+          16,
+          12,
+          10751,
+          14
+        ],
+        "id": 662708,
+        "original_language": "ja",
+        "original_title": "劇場版ポケットモンスター ココ",
+        "overview": "Nel profondo della giungla, lontano da qualsiasi insediamento umano, troviamo la foresta di Okoya, un’area riservata ai Pokémon e protetta da un rigoroso codice di regole. In questa giungla troviamo Koko, un piccolo umano cresciuto come un Pokémon dal Pokémon misterioso Zarude. Koko è cresciuto con l’assoluta certezza di essere un Pokémon. Ma un giorno, in seguito a un incontro fortuito con Ash e Pikachu, Koko si ritrova con il suo primo amico umano. Può considerarsi un Pokémon? Oppure è semplicemente un essere umano? Il pericolo incomberà sulla foresta di Okoya metterà in discussione il legame tra Pokémon ed esseri umani, così come l’amore tra genitore e figlio.",
+        "popularity": 47.984,
+        "poster_path": "/hS0jhEcYLryEwcXgnlNg7DDDrnK.jpg",
+        "release_date": "2020-12-25",
+        "title": "Il film Pokémon - I segreti della giungla",
+        "video": false,
+        "vote_average": 7.08,
+        "vote_count": 138
+      },
+      "id": 25
+    }
+  ]
+}

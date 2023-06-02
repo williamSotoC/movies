@@ -1,0 +1,58 @@
+<!--! logoNetflix: "https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg"--> 
+<!-- !nav -->
+<nav>
+    <div class="nav-logo">
+        <!-- <img src="../assets/multimedia/Netflix.png" [alt]="'logoNetflix'"> -->
+        <img src="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg" [alt]="'logoNetflix'">
+
+    </div>
+    <div class="nav-info">
+        <ul>
+            <li><a routerLink="/home" routerLinkActive="classHome">Home</a></li>
+            <!-- <li><a href="#">Serie TV</a></li> -->
+            <!-- <li><a href="#">Film</a></li> -->
+            <li ><a (click)="vaiAPopularMovie()" routerLinkActive="classPopular">Popular</a></li>
+            <li><a href="javascript:void(0)">My Account</a>
+                <ul>
+                    
+                    <li><a routerLink="/login" routerLinkActive="classLogin">Accedi</a></li>
+                    <li><a routerLink="/contatti" routerLinkActive="classContatti">Contatti</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0)">Area riservata</a>
+                <ul>
+                    
+                    <li><a routerLink="/registrazioneToken" routerLinkActive="classRegistrazioneToken">Registrazione</a></li>
+                    <li><a routerLink="/LoginToken" routerLinkActive="classLoginToken">Login</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+    <div class="nav-icone">
+        <form >
+            <input type="text" name="nome" #cercaFilm="ngModel" [(ngModel)]="modello.nome" (keyup.enter)="prendereTestoDigitato(cercaFilm.value)">
+            <!--! la variabile templei "#cercaFilm" è visibile dentro tutto il file "header.component.html" per cui tale variabile lo usso anche sotto il tag "form" -->
+        </form>
+        <mat-icon (click)="prendereTestoDigitato(cercaFilm.value)">search</mat-icon>
+        <mat-icon>notifications_active</mat-icon>
+        <img src="../assets/multimedia/user.png" alt="immagineUser">
+        <div >{{autenticazioneUtenteService.nomeUtenteLoggato | uppercase}}</div>
+        <!-- ! se tolgo il *ngIf allora quando faccio click sul bottone SI del popUp , mi compare nel header la scritta: 'utenteScollegato'.Ma io non voglio che compaia tale scritta ('utenteScollegato'),per cui uso *ngIf -->
+    </div>
+</nav>
+<!-- !nav -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

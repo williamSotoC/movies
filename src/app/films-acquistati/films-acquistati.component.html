@@ -1,0 +1,106 @@
+<!-- <app-films-list *ngFor="let elementoIessimoOggettoFilmAcquistato of arrayDiOggettiFilmsAcquistati" [elementoIessimoOggettoFilmPoster]="elementoIessimoOggettoFilmAcquistato.film">
+
+    </app-films-list> -->
+
+
+<h1>Films acquistati dell'utente: <em>{{autenticazioneUtenteService.nomeUtenteLoggato | uppercase}}</em> </h1>
+
+<div class="contenitoreButton">
+    <button type="button" mat-button (click)="logout('1000ms', '500ms')">LOGOUT</button>
+</div>
+
+<div class="grid">
+    <mat-card class="example-card" *ngFor="let elementoIessimoOggettoFilmAcquistato of arrayDiOggettiFilmsAcquistati">
+        <mat-card-title>{{elementoIessimoOggettoFilmAcquistato.film.title}}</mat-card-title>
+
+        <!-- <img mat-card-image src="http://image.tmdb.org/t/p/w500{{elementoIessimoOggettoFilmPoster.poster_path}}" alt="{{elementoIessimoOggettoFilmPoster.title}}" (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilmPoster)" class="imgPoster"> -->
+        <img mat-card-image [src]="elementoIessimoOggettoFilmAcquistato.film.poster_path | filtroImg"
+            alt="{{elementoIessimoOggettoFilmAcquistato.film.title}}" class="imgPoster" (click)="vediDettaglio(elementoIessimoOggettoFilmAcquistato.film.id)">
+        <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+        <!-- ! ATTENZIONE: creare pipe per le immagini non trovate -->
+        <mat-card-content>
+           
+            {{elementoIessimoOggettoFilmAcquistato.film.vote_average | number: "1.1-2"}}
+            <!-- ! "number" è nome della pipe Angular-->
+            <!-- ! 1 di sinistra mi dice la quantità di numeri che voglio avere a sinistra del punto -->
+            <!-- ! 1 di destra mi dice la quantità MINIMA di numeri che voglio avere a destra del punto -->
+            <!-- ! 2 mi dice la quantità MASSIMA di numeri che voglio avere a destra del punto -->
+
+            <ngb-rating [rate]="elementoIessimoOggettoFilmAcquistato.film.vote_average">
+                <!--! "<ngb-rating" mi fa comparire le stelline-->
+                <!-- ! "[rate]" è un attributo del tag "<ngb-rating"-->
+                <!-- ! "[rate]" avrà come valore la media dei voti di ogni filmDetail-->
+                <!-- ! Tale media avrà al massimo due cifre dopo la virgola(vedi pipe number) -->
+
+
+            </ngb-rating>
+            <span>{{elementoIessimoOggettoFilmAcquistato.film.release_date | date:"dd MMM yyyy"}}</span>
+
+
+            <div *ngIf="elementoIessimoOggettoFilmAcquistato.id != undefined">
+                <button type="button" mat-button
+                    (click)="restituisciFilmAcquistato(elementoIessimoOggettoFilmAcquistato.id, elementoIessimoOggettoFilmAcquistato.film.title, '1000ms', '500ms')">RESTITUISCI
+                    FILM</button>
+            </div>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<h1 id="h1">Films preferiti dell'utente: <em>{{autenticazioneUtenteService.nomeUtenteLoggato | uppercase}}</em> </h1>
+
+<!-- <div class="contenitoreButton">
+    <button type="button" mat-button (click)="logout('1000ms', '500ms')">LOGOUT</button>
+</div> -->
+
+<div class="grid">
+    <mat-card class="example-card" *ngFor="let elementoIessimoOggettoFilmAcquistato of arrayDiOggettiFilmsPreferiti">
+        <mat-card-title>{{elementoIessimoOggettoFilmAcquistato.film.title}}</mat-card-title>
+
+        <!-- <img mat-card-image src="http://image.tmdb.org/t/p/w500{{elementoIessimoOggettoFilmPoster.poster_path}}" alt="{{elementoIessimoOggettoFilmPoster.title}}" (click)="vediDettaglioFilmPoster(elementoIessimoOggettoFilmPoster)" class="imgPoster"> -->
+        <img mat-card-image [src]="elementoIessimoOggettoFilmAcquistato.film.poster_path | filtroImg"
+            alt="{{elementoIessimoOggettoFilmAcquistato.film.title}}" class="imgPoster" (click)="vediDettaglio(elementoIessimoOggettoFilmAcquistato.film.id)">
+        <div class="descrizione"><img src="../../assets/multimedia/n.png" alt="immagine lettera N"> </div>
+
+        <!-- ! ATTENZIONE: creare pipe per le immagini non trovate -->
+        <mat-card-content>
+           
+            {{elementoIessimoOggettoFilmAcquistato.film.vote_average | number: "1.1-2"}}
+            <!-- ! "number" è nome della pipe Angular-->
+            <!-- ! 1 di sinistra mi dice la quantità di numeri che voglio avere a sinistra del punto -->
+            <!-- ! 1 di destra mi dice la quantità MINIMA di numeri che voglio avere a destra del punto -->
+            <!-- ! 2 mi dice la quantità MASSIMA di numeri che voglio avere a destra del punto -->
+
+            <ngb-rating [rate]="elementoIessimoOggettoFilmAcquistato.film.vote_average">
+                <!--! "<ngb-rating" mi fa comparire le stelline-->
+                <!-- ! "[rate]" è un attributo del tag "<ngb-rating"-->
+                <!-- ! "[rate]" avrà come valore la media dei voti di ogni filmDetail-->
+                <!-- ! Tale media avrà al massimo due cifre dopo la virgola(vedi pipe number) -->
+
+
+            </ngb-rating>
+            <span>{{elementoIessimoOggettoFilmAcquistato.film.release_date | date:"dd MMM yyyy"}}</span>
+
+
+            <div *ngIf="elementoIessimoOggettoFilmAcquistato.id != undefined">
+                <button type="button" mat-button
+                    (click)="restituisciFilmPreferito(elementoIessimoOggettoFilmAcquistato.id, elementoIessimoOggettoFilmAcquistato.film.title, '1000ms', '500ms')">ELIMINA
+                    DA PREFERITI</button>
+            </div>
+
+        </mat-card-content>
+
+    </mat-card>
+</div>

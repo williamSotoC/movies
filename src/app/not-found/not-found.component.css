@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-family: serif;
+    margin-top: 8.3rem;
+    margin-bottom: 8.3rem;
+    animation: custonAnimation 1.5s forwards;
+    -webkit-animation: custonAnimation 1.5s forwards;
+    /*! scrivo "forwards" per far si che una volta finita l'animazione RIMANGA lo stato FINALE(100%) di tale animazione */
+}
+@keyframes custonAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div.button {
+    display: flex;
+    justify-content: end;
+    margin-right: .9rem;
+    margin-bottom: 4rem;
+
+   
+
+}
+
+div.button button {
+    width: 13%;
+
+    background-color: #E50914;
+    
+
+    transition: 400ms ease-in;
+    -webkit-transition: 400ms ease-in;
+    -moz-transition: 400ms ease-in;
+    -ms-transition: 400ms ease-in;
+    -o-transition: 400ms ease-in;
+
+}
+div.button button:hover {
+    background-color: #ffffff;
+    color: #E50914;
+    
+
+   
+
+}
